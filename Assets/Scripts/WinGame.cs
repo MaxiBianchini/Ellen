@@ -15,7 +15,6 @@ public class WinGame : MonoBehaviour
         canvas = GetComponent<Canvas>();
         canvas.enabled = false;
     }
-
     public void NuevaMedalla()
     {
         Medallas -= 1;
