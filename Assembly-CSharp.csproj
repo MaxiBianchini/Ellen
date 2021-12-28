@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GenerateDamage.cs" />
     <Compile Include="Assets\Other Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Other Assets\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
+    <Compile Include="Assets\Scripts\BotonsController.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Vehicles\Car\Scripts\CarController.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SmoothFollow.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
@@ -125,6 +127,7 @@
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\ForcedReset.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
     <Compile Include="Assets\Other Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\Scripts\Lives.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\ObjectResetter.cs" />
@@ -163,9 +166,6 @@
     <Compile Include="Assets\Other Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\GenerateDamage.cs" />
-    <Compile Include="Assets\Scripts\Lives.cs" />
-    <Compile Include="Assets\Scripts\BotonsController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
