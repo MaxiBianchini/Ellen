@@ -44,9 +44,9 @@ public class Lives : MonoBehaviour
         {
             Vidas -= cantidad;
 
-            Animacion.Play("Danio");
+            Animacion.Play("Daño");
 
-            //Invencible = true;
+            Invencible = true;
             StartCoroutine(Invulnerabilidad());
             StartCoroutine(FrenarVelocidad());
         }
