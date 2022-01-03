@@ -140,7 +140,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         HitNormal = hit.normal;
