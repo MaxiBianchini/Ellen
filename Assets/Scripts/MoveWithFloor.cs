@@ -56,8 +56,8 @@ public class MoveWithFloor : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position + OriginOffset, Player.height / FactDiv);
     }
 
-   /* private void Awake()
+    private void Awake()
     {
         Application.targetFrameRate = 60;
-    }*/
+    }
 }

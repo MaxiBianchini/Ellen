@@ -60,6 +60,7 @@
     <Compile Include="Assets\Other Assets\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
+    <Compile Include="Assets\Scripts\MoveWithFloor.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\DynamicShadowSettings.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SimpleMouseRotator.cs" />
@@ -166,8 +167,6 @@
     <Compile Include="Assets\Other Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\MoverConSuelo.cs" />
-    <Compile Include="Assets\Scripts\MoveWithFloor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
