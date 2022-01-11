@@ -70,7 +70,6 @@ public class NavMeshController : MonoBehaviour
                 StopCoroutine(EsperarParaMover(0f));
 
                 Agente.destination = PosicionesPlataorma[PosicionSiguiente].position;
-                //Plataforma.MovePosition(Vector3.MoveTowards(Plataforma.position, PosicionesPlataorma[PosicionSiguiente].position, Velocidad * Time.deltaTime));
             }
 
             if (Vector3.Distance(transform.position, PosicionesPlataorma[PosicionSiguiente].position) <= 0.5)
