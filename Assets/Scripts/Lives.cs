@@ -8,7 +8,7 @@ public class Lives : MonoBehaviour
 {
     private CharacterController Player;
 
-    private Vector3 PosInicial = new Vector3(-5, -3, -20);
+    public Vector3 PosInicial;
 
     public int Vidas = 3;
     private bool Invencible = false;
