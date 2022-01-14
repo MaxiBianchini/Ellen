@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44049418, g: 0.48140007, b: 0.5276258, a: 1}
+  m_IndirectSpecularColor: {r: 0.44049436, g: 0.4814005, b: 0.52762616, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1910,6 +1910,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2196649878686683444, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
   m_PrefabInstance: {fileID: 2196649880019303929}
   m_PrefabAsset: {fileID: 0}
+--- !u!143 &958567558 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 2196649879833447335, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
+  m_PrefabInstance: {fileID: 2196649880019303929}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &958567560 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2196649878686387540, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
@@ -3088,7 +3093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1efe8c5a2e0796c45ab1c43bf901d2b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSmoothingFactor: 1
+  cameraSmoothingFactor: 3
   lookUpMax: 60
   lookDownMax: -60
   cameratransform: {fileID: 963194228}
@@ -3478,7 +3483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2196649878686387540, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.69
+      value: -45.718357
       objectReference: {fileID: 0}
     - target: {fileID: 2196649878686387540, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3486,7 +3491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2196649878686387540, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -45.61
+      value: -45.610138
       objectReference: {fileID: 0}
     - target: {fileID: 2196649878686387540, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3524,13 +3529,25 @@ PrefabInstance:
       propertyPath: Cam
       value: 
       objectReference: {fileID: 963194227}
+    - target: {fileID: 2196649879833447332, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 1980754484}
+    - target: {fileID: 2196649879833447332, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 958567558}
     - target: {fileID: 2196649879833447335, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2196649879833447335, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_SlopeLimit
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369631990037539226, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5369631990037539226, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: PosInicial.x

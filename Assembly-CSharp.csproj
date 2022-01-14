@@ -143,6 +143,7 @@
     <Compile Include="Assets\Other Assets\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\AutoMoveAndRotate.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\CoinPickUp.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\2D\Scripts\Restarter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
@@ -168,7 +169,6 @@
     <Compile Include="Assets\Other Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\PlayerInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />

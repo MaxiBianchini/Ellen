@@ -183,14 +183,18 @@ public class PlayerController : MonoBehaviour
     public float forwardInput;
     public float rightInput;
 
-   // public float HMove;
+    private Vector3 Velocity;
+
+    // public float HMove;
     //public float VMove;
 
-    public CharacterController Player;
+    public CameraController Camera;
+    //public CharacterController Player;
 
     private void Start()
     {
-        Player = GetComponent<CharacterController>();
+        //Player = GetComponent<CharacterController>();
+        transform.Translate(Velocity);
     }
 
     private void Update()
@@ -198,13 +202,33 @@ public class PlayerController : MonoBehaviour
         //HMove = Input.GetAxis("Horizontal");
         //VMove = Input.GetAxis("Vertical");
 
-        Player.Move(new Vector3(forwardInput, 0, rightInput));
-        //transform.Translate(new Vector3(forwardInput, 0, rightInput));
+       // Player.Move(new Vector3(forwardInput, 0, rightInput));
+        transform.Translate(Velocity);
     }
 
     public void AddMovementInput(float forward, float right)
     {
         forwardInput = forward;
         rightInput = right;
+
+        Vector3 CamFwd = Camera.transform.forward;
+        Vector3 CamRht = Camera.transform.right;
+
+        Vector3 translation = forward * Camera.transform.forward;
+        translation += right * Camera.transform.right;
+
+
+        if (translation.magnitude > 0)
+        {
+            Velocity = translation;
+        }
+        else
+        {
+            Velocity = Vector3.zero;
+        }
+        
     }
+
+
+    
 }
