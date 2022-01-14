@@ -37,13 +37,18 @@ public class WinGame : MonoBehaviour
         }
     }
 
-    public void CristalFinal()
+    public bool CristalFinal()
     {
+        if (Medallas != 0) return false;
+
+
         canvas.enabled = true;
 
         active = !active;
         canvas.enabled = active;
 
         Time.timeScale = (active) ? 0 : 1f;
+
+        return true;
     }
 }

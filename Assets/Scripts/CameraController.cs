@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-     public float Sensibilidad;
+     /*public float Sensibilidad;
 
      public Vector3 Distancia;
      private Transform Player;
@@ -24,19 +24,22 @@ public class CameraController : MonoBehaviour
 
          transform.LookAt(Player); //Acomoda el angulo automaticamente
      }
+     */
 
-
-   /* public float cameraSmoothingFactor = 1;
+    public float cameraSmoothingFactor = 1;
     public float lookUpMax = 60;
     public float lookDownMax = -60;
 
     public Transform cameratransform;
 
     private Quaternion camRotation;
+    private Vector3 CameraOffset;
+    private RaycastHit hit;
 
     private void Start()
     {
         camRotation = transform.localRotation;
+        CameraOffset = cameratransform.localPosition;
     }
 
     private void Update()
@@ -48,9 +51,19 @@ public class CameraController : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(camRotation.x, camRotation.y, camRotation.z);
 
+        
+        if (Physics.Linecast(transform.position, transform.position + transform.localRotation * CameraOffset, out hit))
+        {
+            cameratransform.localPosition = new Vector3(0, 0, -Vector3.Distance(transform.position, hit.point));
+        }
+        else
+        {
+            cameratransform.localPosition = Vector3.Lerp(cameratransform.localPosition, CameraOffset,Time.deltaTime);
+        }
+
 
     }
-    */
+    
 
 
 

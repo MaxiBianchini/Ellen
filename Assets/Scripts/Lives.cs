@@ -48,7 +48,7 @@ public class Lives : MonoBehaviour
 
             Invencible = true;
             StartCoroutine(Invulnerabilidad());
-            StartCoroutine(FrenarVelocidad());
+           // StartCoroutine(FrenarVelocidad());
         }
         else if (Vidas == 0)
         {
@@ -64,11 +64,11 @@ public class Lives : MonoBehaviour
         Invencible = false;
     }
 
-    IEnumerator FrenarVelocidad()
+    /*IEnumerator FrenarVelocidad()
     {
         var VelocidadActual = GetComponent<PlayerController>().Velocidad;
         GetComponent<PlayerController>().Velocidad = 0;
         yield return new WaitForSeconds(TiempoInmovil);
         GetComponent<PlayerController>().Velocidad = VelocidadActual;
-    }
+    }*/
 }

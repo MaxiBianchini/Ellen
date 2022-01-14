@@ -10,11 +10,11 @@ public class CrystalPickUp : MonoBehaviour
         if (other.tag == "Player")
         {
 
-            this.gameObject.SetActive(false);
-            FindObjectOfType<WinGame>().CristalFinal();
+
+            if (FindObjectOfType<WinGame>().CristalFinal()) this.gameObject.SetActive(false);
             // Medallero.GetComponent<JuegoGanado>().NuevaMedalla();
             //GetComponent<JuegoGanado>().NuevaMedalla(); // TIENE QUE INCREMENTAR EL CONTADOR DE MEDALLAS. NECESITA 3 PARA PODER GANAR EL JUEGO
-            
+
         }
     }
 }
