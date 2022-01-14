@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19044.1466; Version 2009; 64bit' Language: 'es' Physical Memory: 8072 MB
+OS: 'Windows 10 Pro; OS build 22000.434; Version 2009; 64bit' Language: 'es' Physical Memory: 14283 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Maxi/Documents/BIANCHINI_MAXI_TDPV_ManObj_3D_FINAL
+C:/Users/bianc/Documents/BIANCHINI_MAXI_TDPV_ManObj_3D_FINAL
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56283
-Successfully changed project path to: C:/Users/Maxi/Documents/BIANCHINI_MAXI_TDPV_ManObj_3D_FINAL
-C:/Users/Maxi/Documents/BIANCHINI_MAXI_TDPV_ManObj_3D_FINAL
+50245
+Successfully changed project path to: C:/Users/bianc/Documents/BIANCHINI_MAXI_TDPV_ManObj_3D_FINAL
+C:/Users/bianc/Documents/BIANCHINI_MAXI_TDPV_ManObj_3D_FINAL
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Maxi/Documents/BIANCHINI_MAXI_TDPV_ManObj_3D_FINAL/Assets
+[Subsystems] Discovering subsystems at path C:/Users/bianc/Documents/BIANCHINI_MAXI_TDPV_ManObj_3D_FINAL/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Renderer: AMD Radeon(TM) RX Vega 11 Graphics (ID=0x15d8)
     Vendor:   
-    VRAM:     4036 MB
-    Driver:   27.20.100.8729
+    VRAM:     7141 MB
+    Driver:   30.0.13025.5005
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001858 seconds.
+Registered in 0.001327 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
+- Completed reload, in  1.094 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1149ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (1094ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (509ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (200ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (181ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004967 seconds.
+Registered in 0.003892 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.327 seconds
+- Completed reload, in  1.028 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1328ms)
-		BeginReloadAssembly (175ms)
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1076ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (376ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (415ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (310ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1656 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 108.3 MB.
 System memory in use after: 108.0 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2113.
-Total: 3.772400 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.130500 ms MarkObjects: 2.932100 ms  DeleteObjects: 0.338700 ms)
+Total: 3.799600 ms (FindLiveObjects: 0.204700 ms CreateObjectMapping: 0.047800 ms MarkObjects: 3.225000 ms  DeleteObjects: 0.320300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,328 +131,232 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall07_Mat.mat
-  artifactKey: Guid(69b66e8d122102447a3efef05f08d8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall07_Mat.mat using Guid(69b66e8d122102447a3efef05f08d8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd1daa2c30cdb0b8e10ff6b2787d6bf') in 0.212420 seconds 
-  Import took 0.218217 seconds .
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(7244e06964d7477408edfeb0b6cd79f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(7244e06964d7477408edfeb0b6cd79f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6efcb5ff69acc8d6970c2b8da70768') in 0.054718 seconds 
+  Import took 0.058517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01_Glowing.mat
-  artifactKey: Guid(6b50833ee3cb96c459e29fd78fbee948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01_Glowing.mat using Guid(6b50833ee3cb96c459e29fd78fbee948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbac723145997e8c777620d0e5ac24e0') in 0.087422 seconds 
-  Import took 0.094346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01_Mat.mat
-  artifactKey: Guid(896bbfa91dbcbf042994a7e983a4df10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01_Mat.mat using Guid(896bbfa91dbcbf042994a7e983a4df10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd12470ab30a50f0fecff1126ef77e68') in 0.332123 seconds 
-  Import took 0.336069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall05_Mat.mat
-  artifactKey: Guid(5bb53fb18666e0648adc18fe37ef26fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall05_Mat.mat using Guid(5bb53fb18666e0648adc18fe37ef26fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677176a91e7f55b689a5778e60766693') in 0.115367 seconds 
-  Import took 0.119705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall06_Mat.mat
-  artifactKey: Guid(5405f4473c846ef408c58df310ad92d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall06_Mat.mat using Guid(5405f4473c846ef408c58df310ad92d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b4217aa5f1105b58f9a2dc17bed0b4') in 0.081569 seconds 
-  Import took 0.085381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall03_02_Mat.mat
-  artifactKey: Guid(d956f2ebefac9914a922b5e8a47b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall03_02_Mat.mat using Guid(d956f2ebefac9914a922b5e8a47b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577409f4dc7e82d1f839e500de1dd7f2') in 0.082445 seconds 
-  Import took 0.086704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small
-  artifactKey: Guid(60e74b6719d68f3419a15feae5f72f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small using Guid(60e74b6719d68f3419a15feae5f72f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d30d95ed30bb67d862261d659a4b26') in 0.013570 seconds 
-  Import took 0.025241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall02_Mat.mat
-  artifactKey: Guid(644c4d990d0ad604db9961f895c8b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall02_Mat.mat using Guid(644c4d990d0ad604db9961f895c8b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49efa85a0d1e84ac36f99228d05733c6') in 0.059753 seconds 
-  Import took 0.068055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models
-  artifactKey: Guid(4f7e65009f5884a44878d91d28368943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models using Guid(4f7e65009f5884a44878d91d28368943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f6f387cc672c85cb640f2de042d96f') in 0.009719 seconds 
-  Import took 0.028066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001274 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall03_Mat.mat
-  artifactKey: Guid(d26378d7be0d13f468c0ddf749479579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall03_Mat.mat using Guid(d26378d7be0d13f468c0ddf749479579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27200ae116a2ee914d827c4a0a48a0c6') in 0.052640 seconds 
-  Import took 0.059402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01_MidGlow.mat
-  artifactKey: Guid(d376df56b7d6a0d48b993388bd197827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01_MidGlow.mat using Guid(d376df56b7d6a0d48b993388bd197827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c945876eb19b981255bdfcffaa4b9f2') in 0.081436 seconds 
-  Import took 0.085936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall04_Mat.mat
-  artifactKey: Guid(30c74dfc1deb0aa4db33e6f1b48b8e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall04_Mat.mat using Guid(30c74dfc1deb0aa4db33e6f1b48b8e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558c755c2b0a09c15ef8a4453f0bf3a3') in 0.074379 seconds 
-  Import took 0.078172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.014107 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall01.fbx
-  artifactKey: Guid(266f03476f36b2945b733736a459bf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall01.fbx using Guid(266f03476f36b2945b733736a459bf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cafafaac1005c2bdb0e2caefaa83d90') in 0.164478 seconds 
-  Import took 0.170076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall03.fbx
-  artifactKey: Guid(b247e1f98f261d648bafb713dd26be2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall03.fbx using Guid(b247e1f98f261d648bafb713dd26be2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4243d9acd01ddf793a2ac48c8871c38') in 0.091762 seconds 
-  Import took 0.096523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall05.fbx
-  artifactKey: Guid(7f1e157661b079647ab480cf407206ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall05.fbx using Guid(7f1e157661b079647ab480cf407206ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ac621a505c9fffdabb7050632f2aba') in 0.085368 seconds 
-  Import took 0.089622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall06.fbx
-  artifactKey: Guid(95a59a779c708744f9268e68ea353e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall06.fbx using Guid(95a59a779c708744f9268e68ea353e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec50d658ef523c7a66f9fb2b409059de') in 0.087329 seconds 
-  Import took 0.091611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall02.fbx
-  artifactKey: Guid(9d1ed9c23e004e84e8283be2bdba967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall02.fbx using Guid(9d1ed9c23e004e84e8283be2bdba967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e246b3266c727e0fdcf77441571585') in 0.087248 seconds 
-  Import took 0.091239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall03_02.fbx
-  artifactKey: Guid(aa9d73083c4b89b42b439b7a8abc5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall03_02.fbx using Guid(aa9d73083c4b89b42b439b7a8abc5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6463a06ea46c44902b28d4aaf0adf581') in 0.087705 seconds 
-  Import took 0.091210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall05_03.fbx
-  artifactKey: Guid(149aaa745b6046944bffef9b4c5e7adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall05_03.fbx using Guid(149aaa745b6046944bffef9b4c5e7adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918e15212a804fd29c2a2239dc789d38') in 0.093183 seconds 
-  Import took 0.097273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall07.fbx
-  artifactKey: Guid(d6d241b77f6723d4eb8a649c352f948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall07.fbx using Guid(d6d241b77f6723d4eb8a649c352f948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367dd009b60fe0723d6ce1960887d384') in 0.092863 seconds 
-  Import took 0.097343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall04.fbx
-  artifactKey: Guid(2fe21ce46fd85014590e30e91e49aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall04.fbx using Guid(2fe21ce46fd85014590e30e91e49aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63acba6f77681735cb007c9634897807') in 0.093662 seconds 
-  Import took 0.097187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall05_02.fbx
-  artifactKey: Guid(bed48d94682673e41b4f517d55b6b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall05_02.fbx using Guid(bed48d94682673e41b4f517d55b6b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5160cd8e8dd08d4d930a87d6e4aa0fb2') in 0.080672 seconds 
-  Import took 0.084657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall04_02.fbx
-  artifactKey: Guid(62bf2c5e2fe738b4585f3f18abfbfe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall04_02.fbx using Guid(62bf2c5e2fe738b4585f3f18abfbfe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28480956c41b6bc03929436a748c3d90') in 0.089183 seconds 
-  Import took 0.093353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall01_02.fbx
-  artifactKey: Guid(4ad71d0c76d63374e9c5fef03ba3b118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall01_02.fbx using Guid(4ad71d0c76d63374e9c5fef03ba3b118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2166f1205c3ddf5a406054f696d15a8') in 0.112587 seconds 
-  Import took 0.116824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall02_02.fbx
-  artifactKey: Guid(3409ea45e219ebe4c920298dbe9c7399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall02_02.fbx using Guid(3409ea45e219ebe4c920298dbe9c7399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3371cd16005d198b013ae1e83d45c0d4') in 0.081426 seconds 
-  Import took 0.086008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall07_03.fbx
-  artifactKey: Guid(8ca07e83a1542b842b8d4f9579768b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall07_03.fbx using Guid(8ca07e83a1542b842b8d4f9579768b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323ba6ceb891802a27bb9be54194add1') in 0.091119 seconds 
-  Import took 0.095215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall07_02.fbx
-  artifactKey: Guid(a7fc7e03dc50d154eb141f19bb0ef3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Small/Small/VegetationSmall07_02.fbx using Guid(a7fc7e03dc50d154eb141f19bb0ef3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ebfb146c5224700c492d3e53d9bab6') in 0.103236 seconds 
-  Import took 0.106910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.173705 seconds.
-  path: Assets/Other Assets/3D Game Kit - Props Pack/Props/Props/Textures
-  artifactKey: Guid(6ba221a6fb3b3c2458608815b5f15798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Other Assets/3D Game Kit - Props Pack/Props/Props/Textures using Guid(6ba221a6fb3b3c2458608815b5f15798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1f3d12b6c4b259c625b3bab25ad627') in 0.011764 seconds 
-  Import took 0.019592 seconds .
+  Time since last request: 0.705309 seconds.
+  path: Assets/CrystalPickUp.cs
+  artifactKey: Guid(bffa223147aac56478384da8573fff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrystalPickUp.cs using Guid(bffa223147aac56478384da8573fff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d01802977fd65bf2f2191eaafb79e7') in 0.061786 seconds 
+  Import took 0.065227 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008960 seconds.
+Registered in 0.003648 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.272 seconds
+- Completed reload, in  0.984 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1272ms)
-		BeginReloadAssembly (198ms)
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (987ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (376ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (292ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2158.
-Total: 4.330200 ms (FindLiveObjects: 0.206800 ms CreateObjectMapping: 0.069900 ms MarkObjects: 3.651000 ms  DeleteObjects: 0.400200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010973 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.275 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1276ms)
-		BeginReloadAssembly (162ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1016ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (366ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (249ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (200ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.0 MB.
+System memory in use before: 103.7 MB.
+System memory in use after: 103.4 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2160.
-Total: 4.568000 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.050900 ms MarkObjects: 3.765400 ms  DeleteObjects: 0.553400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2115.
+Total: 3.305700 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.052700 ms MarkObjects: 2.718700 ms  DeleteObjects: 0.305600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.297 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1055ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 3.491900 ms (FindLiveObjects: 0.249800 ms CreateObjectMapping: 0.039900 ms MarkObjects: 2.827500 ms  DeleteObjects: 0.373000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1045ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2119.
+Total: 4.157600 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.044400 ms MarkObjects: 3.468900 ms  DeleteObjects: 0.443100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (801ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2121.
+Total: 3.818900 ms (FindLiveObjects: 0.198500 ms CreateObjectMapping: 0.044900 ms MarkObjects: 3.221400 ms  DeleteObjects: 0.352500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -466,113 +370,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 500.328335 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(1efe8c5a2e0796c45ab1c43bf901d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(1efe8c5a2e0796c45ab1c43bf901d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85840d23d6ae2549e69f10e3ef56bdd2') in 0.019994 seconds 
-  Import took 0.023675 seconds .
+  Time since last request: 1145.194432 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(eda5ede929e925040b754d80d0a965cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(eda5ede929e925040b754d80d0a965cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37caaddb530bfcb49ae68a0634a5b58') in 0.014105 seconds 
+  Import took 0.017356 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.022377 seconds.
+Registered in 0.004089 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 17.875 seconds
+- Completed reload, in  1.246 seconds
 Domain Reload Profiling:
-	ReloadAssembly (17878ms)
-		BeginReloadAssembly (246ms)
+	ReloadAssembly (1247ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1045ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2123.
+Total: 3.735300 ms (FindLiveObjects: 0.216900 ms CreateObjectMapping: 0.046100 ms MarkObjects: 3.100000 ms  DeleteObjects: 0.370400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.857922 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(eda5ede929e925040b754d80d0a965cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(eda5ede929e925040b754d80d0a965cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8c533c4825880571398e6d88cdda08') in 0.008066 seconds 
+  Import took 0.011168 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003491 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (17481ms)
-			LoadAssemblies (210ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (3964ms)
+			SetupTypeCache (319ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (9464ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (214ms)
-				ProcessInitializeOnLoadAttributes (9184ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2162.
-Total: 4.330900 ms (FindLiveObjects: 0.648600 ms CreateObjectMapping: 0.096400 ms MarkObjects: 3.085700 ms  DeleteObjects: 0.498700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 1.752399 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.024 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2025ms)
-		BeginReloadAssembly (789ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1156ms)
-			LoadAssemblies (311ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (353ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.1 MB.
+System memory in use before: 103.8 MB.
+System memory in use after: 103.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2164.
-Total: 5.921000 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.139900 ms MarkObjects: 4.845500 ms  DeleteObjects: 0.524500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2125.
+Total: 3.483000 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.044700 ms MarkObjects: 2.867200 ms  DeleteObjects: 0.373900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -587,104 +499,160 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007799 seconds.
+Registered in 0.003803 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.343 seconds
+- Completed reload, in  0.962 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2344ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (787ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2127.
+Total: 4.071800 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.044600 ms MarkObjects: 3.456600 ms  DeleteObjects: 0.373700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1049ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2129.
+Total: 3.965500 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.126200 ms MarkObjects: 3.150100 ms  DeleteObjects: 0.382100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1199ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (2125ms)
-			LoadAssemblies (106ms)
+		EndReloadAssembly (1010ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (872ms)
+			SetupTypeCache (342ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (147ms)
-			SetupLoadedEditorAssemblies (692ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (183ms)
-				ProcessInitializeOnLoadAttributes (463ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2166.
-Total: 3.841000 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.058800 ms MarkObjects: 3.209400 ms  DeleteObjects: 0.368400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.026253 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.944 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1944ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1724ms)
-			LoadAssemblies (164ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (857ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (459ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (401ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadAttributes (271ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.1 MB.
+System memory in use before: 103.8 MB.
+System memory in use after: 103.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2168.
-Total: 3.893100 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.066300 ms MarkObjects: 3.034900 ms  DeleteObjects: 0.582200 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2131.
+Total: 4.207500 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.037400 ms MarkObjects: 3.503400 ms  DeleteObjects: 0.479200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -699,48 +667,808 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009038 seconds.
+Registered in 0.003822 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.576 seconds
+- Completed reload, in  0.955 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1577ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (956ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1380ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (787ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (411ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (400ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.1 MB.
+System memory in use before: 103.8 MB.
+System memory in use after: 103.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2170.
-Total: 3.214100 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.048000 ms MarkObjects: 2.635200 ms  DeleteObjects: 0.357400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 3.983600 ms (FindLiveObjects: 0.201700 ms CreateObjectMapping: 0.043800 ms MarkObjects: 3.299800 ms  DeleteObjects: 0.436900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2698.218118 seconds.
+  path: Assets/Art/Prefabs/Chomper.prefab
+  artifactKey: Guid(1d49957844953934f8e8792a8b9659d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Chomper.prefab using Guid(1d49957844953934f8e8792a8b9659d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfac6633aaaea6cc56dc99806a3b0f2') in 0.277612 seconds 
+  Import took 0.282279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/Prefabs/Crystal.prefab
+  artifactKey: Guid(f5a2f2e1400b7bd41990097d4d0aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Crystal.prefab using Guid(f5a2f2e1400b7bd41990097d4d0aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93dd410998c5d6d77c4f4f3481a9a3f') in 0.096260 seconds 
+  Import took 0.099242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Art/Prefabs/Ellen.prefab
+  artifactKey: Guid(298c97a26f050bc47b77417d76bdec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Ellen.prefab using Guid(298c97a26f050bc47b77417d76bdec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bb616acbd9742a7fe519dd8f22e2f3') in 0.140799 seconds 
+  Import took 0.150187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/Prefabs/Movil Platform.prefab
+  artifactKey: Guid(e6a07f1c3a6eec64d8b6ee449d15a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Movil Platform.prefab using Guid(e6a07f1c3a6eec64d8b6ee449d15a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fd916cd4b5ba69382f554f52db05e1') in 0.057043 seconds 
+  Import took 0.061176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/Prefabs/Gate.prefab
+  artifactKey: Guid(ef9f93e20b22fbf45bfbd77d39eef00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Gate.prefab using Guid(ef9f93e20b22fbf45bfbd77d39eef00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6926ce8704d172af52cdd0efb8e64979') in 0.089514 seconds 
+  Import took 0.094452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/Prefabs/Coin.prefab
+  artifactKey: Guid(51179a05c5b1f504d9d4933d2e5bdbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Coin.prefab using Guid(51179a05c5b1f504d9d4933d2e5bdbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d3e02e870fd7cf443fad5232eb8c0b') in 0.049451 seconds 
+  Import took 0.052299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Art/Prefabs/Door.prefab
+  artifactKey: Guid(e18cfc3878e022d4a9f8832425ebeb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Door.prefab using Guid(e18cfc3878e022d4a9f8832425ebeb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5682efd2a00516e48bc65020d86daba2') in 0.066082 seconds 
+  Import took 0.069553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.917213 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Albedo.tif
+  artifactKey: Guid(c1db9d9d57601ac4a930c0af00135b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Albedo.tif using Guid(c1db9d9d57601ac4a930c0af00135b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8574c47bed626176db4af865b6de2f') in 0.041993 seconds 
+  Import took 0.045252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_Albedo.tif
+  artifactKey: Guid(198e37c9bde68254c984a4023445421a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_Albedo.tif using Guid(198e37c9bde68254c984a4023445421a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ed9b6c15c0cae1744b8e0543237a0a') in 0.027434 seconds 
+  Import took 0.030150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Occlusion.tif
+  artifactKey: Guid(43cfbc85715a6d443a0ca1cdb47bc9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Occlusion.tif using Guid(43cfbc85715a6d443a0ca1cdb47bc9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4748ff89fccc3230eb598d057e2cf1dd') in 0.023157 seconds 
+  Import took 0.027117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_Occlusion.tif
+  artifactKey: Guid(4f81bd676d28d904b9db2093c9caf769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_Occlusion.tif using Guid(4f81bd676d28d904b9db2093c9caf769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b291ce5ae25f10ae07a8b86cd11c58c') in 0.032747 seconds 
+  Import took 0.035842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_MetallicSmooth.tif
+  artifactKey: Guid(ffea55d3550d0f342a603620ed9aacd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_MetallicSmooth.tif using Guid(ffea55d3550d0f342a603620ed9aacd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e651e9f24ea5dcda21c5b7b3d8c5c7') in 0.024235 seconds 
+  Import took 0.027225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_MetallicSmooth.tif
+  artifactKey: Guid(c8c2d91500919934ea69b0959913741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_MetallicSmooth.tif using Guid(c8c2d91500919934ea69b0959913741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513db4d4f678bedad3169ce723d2adc0') in 0.022637 seconds 
+  Import took 0.026596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Albedo.tif
+  artifactKey: Guid(e396811bc8a737244811455e213cb254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Albedo.tif using Guid(e396811bc8a737244811455e213cb254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec559e41d4c6eb147a72bf2f9211156f') in 0.027708 seconds 
+  Import took 0.031034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_Normals.tif
+  artifactKey: Guid(487d02b45647ac249bdbe86739044926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_Normals.tif using Guid(487d02b45647ac249bdbe86739044926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0369b41f89b8446ed2c028811524e001') in 0.024740 seconds 
+  Import took 0.028643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Occlusion.tif
+  artifactKey: Guid(9a89599e10e4b7643ab35e1ddca3ca99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Occlusion.tif using Guid(9a89599e10e4b7643ab35e1ddca3ca99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eab9d2b465ccf992c2116c930f16406') in 0.025591 seconds 
+  Import took 0.028715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_MetallicSmooth.tif
+  artifactKey: Guid(97291c21481f446409e5fcb4acd2843e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_MetallicSmooth.tif using Guid(97291c21481f446409e5fcb4acd2843e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7b6658a8eabe477b7cc1e8c2eb1ff1') in 0.023063 seconds 
+  Import took 0.026844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Albedo.tif
+  artifactKey: Guid(1a879096dca909e469b114f433374335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Albedo.tif using Guid(1a879096dca909e469b114f433374335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877662b35dd7c9ab41b90f7c5b3519a3') in 0.026417 seconds 
+  Import took 0.029704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_MetallicSmooth.tif
+  artifactKey: Guid(c9a0bf51bfbd12349a4214462466c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_MetallicSmooth.tif using Guid(c9a0bf51bfbd12349a4214462466c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70d04ee94563912b3abcc1f9abe7012') in 0.024017 seconds 
+  Import took 0.028298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Normals.tif
+  artifactKey: Guid(22233eb4b7c3f4b48bc1590bf050bab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Normals.tif using Guid(22233eb4b7c3f4b48bc1590bf050bab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab99cfd14dada880c87a62331f10f445') in 0.024330 seconds 
+  Import took 0.028227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_Albedo.tif
+  artifactKey: Guid(0c46eac74489d0f4eb18a8d47871fb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_Albedo.tif using Guid(0c46eac74489d0f4eb18a8d47871fb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef25343a9d72cfa9ac6445936d0ec360') in 0.023670 seconds 
+  Import took 0.026996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Occlusion.tif
+  artifactKey: Guid(8a7d06568a918894daa35f839cbf8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Occlusion.tif using Guid(8a7d06568a918894daa35f839cbf8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e2bb72969f4e9153d61e39bb9e6b75') in 0.025950 seconds 
+  Import took 0.029567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Albedo.tif
+  artifactKey: Guid(008a6b98c52009a49999ea04da7a0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Albedo.tif using Guid(008a6b98c52009a49999ea04da7a0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad698c1cf3ee833f23840d89e7b3d010') in 0.025764 seconds 
+  Import took 0.029151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Normal.tif
+  artifactKey: Guid(92517a76bb442374d8246e5d4fc70a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Normal.tif using Guid(92517a76bb442374d8246e5d4fc70a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7c6117d81bfe751e23a6a3ad8328e6') in 0.024153 seconds 
+  Import took 0.027917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_Albedo.tif
+  artifactKey: Guid(5a96c05015b19954693bcef86c643bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_Albedo.tif using Guid(5a96c05015b19954693bcef86c643bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6aa2b7e2e07b3849b5c66e460955856') in 0.025582 seconds 
+  Import took 0.029270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Occlusion.tif
+  artifactKey: Guid(b92edacc3575bd24eb3eb9d063f7657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Occlusion.tif using Guid(b92edacc3575bd24eb3eb9d063f7657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af0030f41b806076554e9320fea3ff3') in 0.026763 seconds 
+  Import took 0.029703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_MetallicSmooth.tif
+  artifactKey: Guid(20fac21436a43494b94c5630fac58fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_MetallicSmooth.tif using Guid(20fac21436a43494b94c5630fac58fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cda5f16f930c345fb9f9f8cd5a831f') in 0.017298 seconds 
+  Import took 0.020519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Albedo.tif
+  artifactKey: Guid(8a546db20b161bd4c8a7dec7f2cff7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Albedo.tif using Guid(8a546db20b161bd4c8a7dec7f2cff7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8936f7b4c6b350fd0de49b3d155dc5fd') in 0.025034 seconds 
+  Import took 0.029010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Albedo.tif
+  artifactKey: Guid(533c0cb42b77daf45902d3338a663a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Albedo.tif using Guid(533c0cb42b77daf45902d3338a663a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9345844a8d2855179b8689a357ff77fc') in 0.027024 seconds 
+  Import took 0.030906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Albedo.tif
+  artifactKey: Guid(01947671e84883f4890a9cac2c971c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Albedo.tif using Guid(01947671e84883f4890a9cac2c971c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fed17e37c3c454f27c4c8b7a344f7b0') in 0.023342 seconds 
+  Import took 0.026865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_MetallicSmooth.tif
+  artifactKey: Guid(88af86ef5cf59ec4285d8e472cfa571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_MetallicSmooth.tif using Guid(88af86ef5cf59ec4285d8e472cfa571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baeef30a13a3902d2c7a2318ae40d04') in 0.024851 seconds 
+  Import took 0.028342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_Normals.tif
+  artifactKey: Guid(b47747827ac239241bc0d3af9c8b2fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_Normals.tif using Guid(b47747827ac239241bc0d3af9c8b2fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c6020c3bcb8e8938048d4cae44b06e') in 0.027456 seconds 
+  Import took 0.030811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_Normal.tif
+  artifactKey: Guid(aa9f0ee466de7e243be6369743cc3580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_Normal.tif using Guid(aa9f0ee466de7e243be6369743cc3580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc5bd8370cd3b496e010b704d1d628e') in 0.023982 seconds 
+  Import took 0.027350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_Normal.tif
+  artifactKey: Guid(a33561eee7f31dd479c92688cb9a8537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_Normal.tif using Guid(a33561eee7f31dd479c92688cb9a8537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2459a02ccfeb62d0d789d31beef38b67') in 0.024320 seconds 
+  Import took 0.027315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_MetallicSmooth.tif
+  artifactKey: Guid(0258afdfc44a6a54da338591a780d712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_MetallicSmooth.tif using Guid(0258afdfc44a6a54da338591a780d712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9861702cb0f63b8241d70a28c7850ced') in 0.024516 seconds 
+  Import took 0.028149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Normals.tif
+  artifactKey: Guid(7a17f74c2aa7eab4c983462c8a06525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Normals.tif using Guid(7a17f74c2aa7eab4c983462c8a06525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd195b4eeab2a6a842ac29f3d5fbb8eb') in 0.057893 seconds 
+  Import took 0.060892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Occlusion.tif
+  artifactKey: Guid(8eea782597fbf9345a9c844a49c3b2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Occlusion.tif using Guid(8eea782597fbf9345a9c844a49c3b2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ba3072790b31d33bfd80d12fbdd14b') in 0.025994 seconds 
+  Import took 0.029588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_MetallicSmooth.tif
+  artifactKey: Guid(8ff898b0b70398349998d5b0b427f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_MetallicSmooth.tif using Guid(8ff898b0b70398349998d5b0b427f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76dc996706cf360d91100a0d7b1b85a') in 0.023935 seconds 
+  Import took 0.026958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Albedo.tif
+  artifactKey: Guid(5a23ffdedd848034f96d37a8e2c6db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Albedo.tif using Guid(5a23ffdedd848034f96d37a8e2c6db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047afa5d86e7c11ff17b1736906e911f') in 0.037637 seconds 
+  Import took 0.040711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_Albedo.tif
+  artifactKey: Guid(30e19b2cfa32c904e841a50f81f29948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_Albedo.tif using Guid(30e19b2cfa32c904e841a50f81f29948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dd33585fe22d09aac8b5886c364af3') in 0.026633 seconds 
+  Import took 0.030193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Occlusion.tif
+  artifactKey: Guid(01b856b1c96bb674baaf8ce84f5430f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Occlusion.tif using Guid(01b856b1c96bb674baaf8ce84f5430f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9456cea86c3c923ead9ac7b5b8561d2b') in 0.024749 seconds 
+  Import took 0.028181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_MetallicSmooth.tif
+  artifactKey: Guid(3c4967fe7aa779e4794f40017a7b8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_MetallicSmooth.tif using Guid(3c4967fe7aa779e4794f40017a7b8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abb264edb638e90b1bd324832ce8aac') in 0.023707 seconds 
+  Import took 0.027740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_MetallicSmooth.tif
+  artifactKey: Guid(da127946480dcc645b278cb2f2e43c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_MetallicSmooth.tif using Guid(da127946480dcc645b278cb2f2e43c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1715cd7c60c3eb26f3518d22553c0f') in 0.021784 seconds 
+  Import took 0.025294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Albedo.tif
+  artifactKey: Guid(43065e33d6a2ab149a4eeb148ef445d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Albedo.tif using Guid(43065e33d6a2ab149a4eeb148ef445d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849582438e492af2781c92b23d4e2175') in 0.025265 seconds 
+  Import took 0.028934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Normals.tif
+  artifactKey: Guid(a205f3a9e486998478d96a02d1434a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Normals.tif using Guid(a205f3a9e486998478d96a02d1434a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bc067aab2e75ab67d6c98d6675ce49') in 0.021757 seconds 
+  Import took 0.025367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_Normals.tif
+  artifactKey: Guid(90b1094258b43f949b57ca71615843c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_Normals.tif using Guid(90b1094258b43f949b57ca71615843c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caccfa53de562b8fa484334f0a96128') in 0.026812 seconds 
+  Import took 0.030577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_MetallicSmooth.tif
+  artifactKey: Guid(51ada4ba6b76219459e358a510c009dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_MetallicSmooth.tif using Guid(51ada4ba6b76219459e358a510c009dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bef6755d4102ac0506825fbfb15890b') in 0.026548 seconds 
+  Import took 0.030298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_MetallicSmooth.tif
+  artifactKey: Guid(8597781b0b1f721489e358acd6a08c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_MetallicSmooth.tif using Guid(8597781b0b1f721489e358acd6a08c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e59acf87eb852356d197536672bad35') in 0.022756 seconds 
+  Import took 0.026440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_Occlusion.tif
+  artifactKey: Guid(5f0402585ae3c904eae3ccdbbdabf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_Occlusion.tif using Guid(5f0402585ae3c904eae3ccdbbdabf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95ca612aea7a6bf331468d816d23742') in 0.027059 seconds 
+  Import took 0.030011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Occlusion.tif
+  artifactKey: Guid(b76b5eee84abd7642802475d2aaa4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Occlusion.tif using Guid(b76b5eee84abd7642802475d2aaa4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fba98231fadbdc819cfb46ba034bda') in 0.025392 seconds 
+  Import took 0.029025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Normals.tif
+  artifactKey: Guid(ee3ed04a0e2d4264189d58bbca8dad37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Normals.tif using Guid(ee3ed04a0e2d4264189d58bbca8dad37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06af8a7174561978ef18c457db3c99f') in 0.027732 seconds 
+  Import took 0.031278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_MetallicSmooth.tif
+  artifactKey: Guid(71e719555a5e83f4da18293c27bc6c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_MetallicSmooth.tif using Guid(71e719555a5e83f4da18293c27bc6c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5767e6f4061fa132592f9b4014e6d32b') in 0.024550 seconds 
+  Import took 0.028026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Albedo.tif
+  artifactKey: Guid(7fe8b4b3df4122447bfff666ff947ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Albedo.tif using Guid(7fe8b4b3df4122447bfff666ff947ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2699861701716f0249401ce632e2c1a3') in 0.024828 seconds 
+  Import took 0.027996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Occlusion.tif
+  artifactKey: Guid(49652e51668454a4cbe0ceaeb6ea1f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Occlusion.tif using Guid(49652e51668454a4cbe0ceaeb6ea1f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f982f2661464023d450a8ddfa5fc6c') in 0.024322 seconds 
+  Import took 0.027574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_Albedo.tif
+  artifactKey: Guid(79be159c66db88d4c92084a795f20883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_Albedo.tif using Guid(79be159c66db88d4c92084a795f20883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87a15e0c91a437dc5c5806a7396464a') in 0.019314 seconds 
+  Import took 0.022692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_Albedo.tif
+  artifactKey: Guid(065ad3e5b8ab0784989773710a73aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_Albedo.tif using Guid(065ad3e5b8ab0784989773710a73aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981d4e7a28c81d9a844d509ea6f21240') in 0.024823 seconds 
+  Import took 0.028345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_Normals.tif
+  artifactKey: Guid(8ba1548737f50a94f85de65349abd43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_Normals.tif using Guid(8ba1548737f50a94f85de65349abd43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf2a06ecec4dda27279eb2e9cfdd28c') in 0.026460 seconds 
+  Import took 0.030215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetailMedium_Albedo.tif
+  artifactKey: Guid(67f7a05ba7555b34a95cd7f85725ba16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetailMedium_Albedo.tif using Guid(67f7a05ba7555b34a95cd7f85725ba16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caccdb1a4d76787ef994c4bf3cf2b5bf') in 0.024800 seconds 
+  Import took 0.028166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_DetailMask.tif
+  artifactKey: Guid(149320d70986b6e4e98e8e7ed00e3299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_DetailMask.tif using Guid(149320d70986b6e4e98e8e7ed00e3299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77322b478f4f0d671d4ed0a6b6069ef') in 0.026170 seconds 
+  Import took 0.029783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Occlusion.tif
+  artifactKey: Guid(99b1cc1989812524585b277f42e08a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Occlusion.tif using Guid(99b1cc1989812524585b277f42e08a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8fbf5dbdd15fbae11d303f799c176d') in 0.025993 seconds 
+  Import took 0.029694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Occlusion.tif
+  artifactKey: Guid(c3d8bbb565f15e14cbb130e6c549585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Occlusion.tif using Guid(c3d8bbb565f15e14cbb130e6c549585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78716c02a50867593906aa1df8563c91') in 0.025199 seconds 
+  Import took 0.029600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Normals.tif
+  artifactKey: Guid(88f0f8d1227778f41adfd157e5172bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Normals.tif using Guid(88f0f8d1227778f41adfd157e5172bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ea4577d6b6be4f948402d4b9fe5325') in 0.024769 seconds 
+  Import took 0.028689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_MetallicSmooth.tif
+  artifactKey: Guid(b59db019b0be16e4d9c76846dcf5dc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_MetallicSmooth.tif using Guid(b59db019b0be16e4d9c76846dcf5dc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4680a6403227ceb7c1f719d54f44c096') in 0.025262 seconds 
+  Import took 0.029134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_Normals.tif
+  artifactKey: Guid(b7a8e52103b698647939bc8de396cc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_Normals.tif using Guid(b7a8e52103b698647939bc8de396cc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e97d4b4028f90263f06fc55bdf40997') in 0.024344 seconds 
+  Import took 0.027803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Normals.tif
+  artifactKey: Guid(abdb49a64fb060a46b1f2ea400f42c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Normals.tif using Guid(abdb49a64fb060a46b1f2ea400f42c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1591264c77e629626383e52721fe8b') in 0.027241 seconds 
+  Import took 0.031014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_Occlusion.tif
+  artifactKey: Guid(018a2778b89a4f5418f00d4ebfb8348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_Occlusion.tif using Guid(018a2778b89a4f5418f00d4ebfb8348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057918a611ed9774c22c8c261dff680b') in 0.023051 seconds 
+  Import took 0.026652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_MetallicSmooth.tif
+  artifactKey: Guid(32becb39e11fcb142956e49d68dd118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_MetallicSmooth.tif using Guid(32becb39e11fcb142956e49d68dd118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f511b2af17b10a33fc3f330d0b6ea27b') in 0.023765 seconds 
+  Import took 0.027788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Normals.tif
+  artifactKey: Guid(31cc2870bec8e1c49a4b755341d2ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Normals.tif using Guid(31cc2870bec8e1c49a4b755341d2ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f326e15f439a4a58d6dc195af8ff97') in 0.027014 seconds 
+  Import took 0.030637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Albedo.tif
+  artifactKey: Guid(6aeafe77df114a140ac2391e1fadbf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Albedo.tif using Guid(6aeafe77df114a140ac2391e1fadbf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840664d02edd050f02468541bd276747') in 0.016021 seconds 
+  Import took 0.019534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Normals.tif
+  artifactKey: Guid(c1636dd3445b2be4d8f0b49c131f0383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Normals.tif using Guid(c1636dd3445b2be4d8f0b49c131f0383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2545fd2a895af55f42503838783669c') in 0.026862 seconds 
+  Import took 0.031069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_Occlusion.tif
+  artifactKey: Guid(fa8ae44f3435f5b4badb98abcc2516af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_Occlusion.tif using Guid(fa8ae44f3435f5b4badb98abcc2516af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce0c2c1e18b098218b8926c6a2db69d') in 0.015725 seconds 
+  Import took 0.019530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/SmallRock_Albedo.tif
+  artifactKey: Guid(8d8ca36b96bd8b6458f9b3c3187f92e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/SmallRock_Albedo.tif using Guid(8d8ca36b96bd8b6458f9b3c3187f92e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1074e2312257652c111c188bf5a2c5') in 0.026701 seconds 
+  Import took 0.030180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_Occlusion.tif
+  artifactKey: Guid(f3ed67a81269cb148acba466b6390784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_Occlusion.tif using Guid(f3ed67a81269cb148acba466b6390784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff64681e325a71454c2009ebf807a978') in 0.025343 seconds 
+  Import took 0.028950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_Albedo.tif
+  artifactKey: Guid(99a4c2d1de8595c468a9eab6cfd8cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_Albedo.tif using Guid(99a4c2d1de8595c468a9eab6cfd8cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce23ad12f67045a70a274ddd9464746') in 0.025747 seconds 
+  Import took 0.028862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetail_normal.tif
+  artifactKey: Guid(eb1605a43e874444c8ab618296f0ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetail_normal.tif using Guid(eb1605a43e874444c8ab618296f0ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304a012d6e5506b63c3b4c8281fd5e2d') in 0.017479 seconds 
+  Import took 0.020662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Albedo.tif
+  artifactKey: Guid(8ed88c0615febc044b895e00487dd48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Albedo.tif using Guid(8ed88c0615febc044b895e00487dd48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8135145d4bf4ffde4685816674c73f') in 0.025583 seconds 
+  Import took 0.028992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetail_MetallicSmooth.tif
+  artifactKey: Guid(3bb1bef1e3fd54e80a387d2b28355e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetail_MetallicSmooth.tif using Guid(3bb1bef1e3fd54e80a387d2b28355e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698f2c6f9391fb05391a0844e8aeeae3') in 0.026513 seconds 
+  Import took 0.029566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Occlusion.tif
+  artifactKey: Guid(5585ec5a213a7f743bf6080e2b3d8363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Occlusion.tif using Guid(5585ec5a213a7f743bf6080e2b3d8363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a46fd03ab45fde7eaed49120c8ab0d1') in 0.025708 seconds 
+  Import took 0.029044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_MetallicSmooth.tif
+  artifactKey: Guid(a1a6d0f9a892bce45ac47ff504a9fc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_MetallicSmooth.tif using Guid(a1a6d0f9a892bce45ac47ff504a9fc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b517783cca37666e65197719b01fea8') in 0.016976 seconds 
+  Import took 0.020379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Normal.tif
+  artifactKey: Guid(82483b9cec584734dae281c6cd4652f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Normal.tif using Guid(82483b9cec584734dae281c6cd4652f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4be58772e413162ec0fb82620ff0b86') in 0.028493 seconds 
+  Import took 0.031854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_MetallicSmooth.tif
+  artifactKey: Guid(93e03daef235f1948928f2437651b77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_MetallicSmooth.tif using Guid(93e03daef235f1948928f2437651b77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032f6f0143117ccf81f592c3bc923803') in 0.016157 seconds 
+  Import took 0.019893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_MetallicSmooth.tif
+  artifactKey: Guid(221f1f0bbafae5043bb1744874b5b24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_MetallicSmooth.tif using Guid(221f1f0bbafae5043bb1744874b5b24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b8fc02bfea5c4cd2749a537c0eb32f') in 0.024124 seconds 
+  Import took 0.027625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Normal.tif
+  artifactKey: Guid(15ef40a7ba93c2d48ac2ec453f2f8b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Normal.tif using Guid(15ef40a7ba93c2d48ac2ec453f2f8b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727e2ebcbdb9b6c7d50a5bab94592fb8') in 0.025788 seconds 
+  Import took 0.029713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_Occlusion.tif
+  artifactKey: Guid(edec81df06128604db53ddd2dc62b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_Occlusion.tif using Guid(edec81df06128604db53ddd2dc62b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c06dfff34decbb51231a82344ba3ed8') in 0.026454 seconds 
+  Import took 0.029579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Normals.tif
+  artifactKey: Guid(65b31c2bc8cf7bc4e9d09773ec9e1eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Normals.tif using Guid(65b31c2bc8cf7bc4e9d09773ec9e1eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50a6193b7ce53ce952ec61a551d4581') in 0.042415 seconds 
+  Import took 0.046780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_MetallicSmooth.tif
+  artifactKey: Guid(3d11d83bd8b085f439b55825349b5120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_MetallicSmooth.tif using Guid(3d11d83bd8b085f439b55825349b5120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc0e63803a9935e116fd3c4320477ca') in 0.022362 seconds 
+  Import took 0.026014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetailMedium_Normal.tif
+  artifactKey: Guid(48495040bbd3a49c0915117a7650e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetailMedium_Normal.tif using Guid(48495040bbd3a49c0915117a7650e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c350e46a3229360bc8d2e83c67987845') in 0.026104 seconds 
+  Import took 0.029422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetail_Curvature.tif
+  artifactKey: Guid(4f45e2e6beacac943bbcaea20149393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetail_Curvature.tif using Guid(4f45e2e6beacac943bbcaea20149393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ce199cc0c48b1b6de14b3178ec8c85') in 0.026475 seconds 
+  Import took 0.029937 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1023ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.9 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2146.
+Total: 3.965900 ms (FindLiveObjects: 0.223100 ms CreateObjectMapping: 0.045600 ms MarkObjects: 3.387700 ms  DeleteObjects: 0.307800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -755,48 +1483,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.027488 seconds.
+Registered in 0.004450 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.765 seconds
+- Completed reload, in  0.983 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1766ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1525ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (807ms)
+			SetupTypeCache (287ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (377ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (290ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.1 MB.
+System memory in use before: 120.9 MB.
+System memory in use after: 120.7 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2172.
-Total: 3.720000 ms (FindLiveObjects: 0.300000 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.918500 ms  DeleteObjects: 0.396200 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2148.
+Total: 3.538500 ms (FindLiveObjects: 0.256000 ms CreateObjectMapping: 0.051500 ms MarkObjects: 2.868700 ms  DeleteObjects: 0.360500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -808,4 +1536,188 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 194.688069 seconds.
+  path: Assets/Art/Prefabs/Movil Platform.prefab
+  artifactKey: Guid(e6a07f1c3a6eec64d8b6ee449d15a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Movil Platform.prefab using Guid(e6a07f1c3a6eec64d8b6ee449d15a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa8899f466ab88fb4aa2533ca079133') in 0.086450 seconds 
+  Import took 0.090438 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.9 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2151.
+Total: 3.861400 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.045600 ms MarkObjects: 3.243600 ms  DeleteObjects: 0.370900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.9 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2153.
+Total: 3.944300 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.044700 ms MarkObjects: 3.255200 ms  DeleteObjects: 0.418500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.9 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2155.
+Total: 4.243800 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.066200 ms MarkObjects: 3.479200 ms  DeleteObjects: 0.414300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20716.472276 seconds.
+  path: Assets/Art/Prefabs
+  artifactKey: Guid(ddea6f79a62e4a14fb625efb8e566c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs using Guid(ddea6f79a62e4a14fb625efb8e566c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6649a76c2095dde2c0a6f16780682152') in 0.014378 seconds 
+  Import took 0.018025 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

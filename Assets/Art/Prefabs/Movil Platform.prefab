@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d6f47e930a10b419475b2a716e58c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Plataforma: {fileID: 0}
+  Plataforma: {fileID: 7769100240987463808}
   PosicionesPlataorma:
   - {fileID: 6068161096881492636}
   - {fileID: 6068161095893954523}
