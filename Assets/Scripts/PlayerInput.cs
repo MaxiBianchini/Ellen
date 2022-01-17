@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerController))]
 public class PlayerInput : MonoBehaviour
 {
-
+/*
     private PlayerController Player;
     // Start is called before the first frame update
     void Start()
@@ -18,5 +18,5 @@ public class PlayerInput : MonoBehaviour
     void Update()
     {
         Player.AddMovementInput(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"));
-    }
+    }*/
 }

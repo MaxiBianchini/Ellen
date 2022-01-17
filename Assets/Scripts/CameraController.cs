@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-     /*public float Sensibilidad;
+     public float Sensibilidad;
 
      public Vector3 Distancia;
      private Transform Player;
@@ -24,9 +24,9 @@ public class CameraController : MonoBehaviour
 
          transform.LookAt(Player); //Acomoda el angulo automaticamente
      }
-     */
+     
 
-    public float cameraSmoothingFactor = 1;
+    /*public float cameraSmoothingFactor = 1;
     public float lookUpMax = 60;
     public float lookDownMax = -60;
 
@@ -70,7 +70,7 @@ public class CameraController : MonoBehaviour
 
 
 
-
+    */
 
 
 

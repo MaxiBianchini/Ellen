@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    /*//Variables movimiento
+     //Variables movimiento
      private CharacterController Player;
 
      private Vector3 PlayerInput;
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
      private Vector3 HitNormal;
 
      //Variables Animaciones
-     public Animator PlayerAmimatorController;
+     private Animator PlayerAmimatorController;
 
      //Carga el componente CharacterController en la variable Player y el componente Animator al iniciar el script
      void Start()
@@ -148,7 +148,7 @@ public class PlayerController : MonoBehaviour
      private void OnAnimatorMove()
      {
 
-     }*/
+     }
 
 
 
@@ -179,7 +179,7 @@ public class PlayerController : MonoBehaviour
 
     ////////////////////////////////////////////////////
     ///
-    
+    /*
     public float forwardInput;
     public float rightInput;
 
@@ -229,6 +229,6 @@ public class PlayerController : MonoBehaviour
         
     }
 
-
+    */
     
 }
