@@ -33,10 +33,7 @@ public class MoveWithFloor : MonoBehaviour
                 NombreSuelo = SueloActual.name;
                 PosicionSuelo = SueloActual.transform.position;
 
-                if (PosicionSuelo != UltimaPosicionSuelo && NombreSuelo == UltimoNombreSuelo)
-                {
-                    transform.position += PosicionSuelo - UltimaPosicionSuelo;
-                }
+                if (PosicionSuelo != UltimaPosicionSuelo && NombreSuelo == UltimoNombreSuelo) transform.position += PosicionSuelo - UltimaPosicionSuelo;
 
                 UltimoNombreSuelo = NombreSuelo;
                 UltimaPosicionSuelo = PosicionSuelo;

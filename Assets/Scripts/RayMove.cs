@@ -10,13 +10,14 @@ public class RayMove : MonoBehaviour
 
     private void Awake()
     {
-        body = GetComponent<Rigidbody>();
+        
     }
 
 
     // Start is called before the first frame update
     void Start()
     {
+        body = GetComponent<Rigidbody>();
         body.velocity = transform.forward * speed;
     }
 
@@ -28,15 +29,8 @@ public class RayMove : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.tag == "Player") other.GetComponent<Lives>().RestarVida(1);
 
-        if (other.tag == "Player")
-        {
-
-
-           
-                other.GetComponent<Lives>().RestarVida(1);
-            
-            this.gameObject.SetActive(false);
-        }
+        Destroy(this.gameObject);
     }
 }

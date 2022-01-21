@@ -23,24 +23,15 @@ public class WinGame : MonoBehaviour
 
         if (Medallas == 0)
         {
-            /*canvas.enabled = true;
 
-            active = !active;
-            canvas.enabled = active;
-
-            Time.timeScale = (active) ? 0 : 1f;*/
-
-            PuertaFinal = GameObject.Find("Door");
-            PuertaFinal.SetActive(false);
-
-
+            PuertaFinal = GameObject.Find("Door");                        
+            Destroy(PuertaFinal);
         }
     }
 
     public bool CristalFinal()
     {
         if (Medallas != 0) return false;
-
 
         canvas.enabled = true;
 

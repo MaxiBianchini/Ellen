@@ -26,16 +26,7 @@ public class Lives : MonoBehaviour
 
     void Update()
     {
-        CaerAcido();
-    }
 
-    private void CaerAcido()
-    {
-        if (Player.transform.position.y <= -10)
-        {
-            RestarVida(1);
-            Player.transform.position = PosInicial;
-        }
     }
 
     public void RestarVida(int cantidad)
@@ -48,13 +39,10 @@ public class Lives : MonoBehaviour
 
             Invencible = true;
             StartCoroutine(Invulnerabilidad());
-           // StartCoroutine(FrenarVelocidad());
+            StartCoroutine(FrenarVelocidad());
         }
-        else if (Vidas == 0)
-        {
-            SceneManager.LoadScene("Nivel_1");
-        }
-
+        else if (Vidas == 0) SceneManager.LoadScene("Nivel_1"); //Cargar el menu de perder.
+        
     }
 
     IEnumerator Invulnerabilidad()
@@ -64,11 +52,11 @@ public class Lives : MonoBehaviour
         Invencible = false;
     }
 
-    /*IEnumerator FrenarVelocidad()
+    IEnumerator FrenarVelocidad()
     {
         var VelocidadActual = GetComponent<PlayerController>().Velocidad;
         GetComponent<PlayerController>().Velocidad = 0;
         yield return new WaitForSeconds(TiempoInmovil);
         GetComponent<PlayerController>().Velocidad = VelocidadActual;
-    }*/
+    }
 }

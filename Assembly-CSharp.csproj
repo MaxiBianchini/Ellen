@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GenerateDamage.cs" />
     <Compile Include="Assets\Other Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\Scripts\GenerateRay.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
@@ -143,7 +144,6 @@
     <Compile Include="Assets\Other Assets\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\AutoMoveAndRotate.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\FOVKick.cs" />
-    <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\CoinPickUp.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\2D\Scripts\Restarter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
@@ -153,10 +153,11 @@
     <Compile Include="Assets\Other Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\EventSystemChecker.cs" />
-    <Compile Include="Assets\Scripts\NavMeshController.cs" />
+    <Compile Include="Assets\Scripts\ChomperController.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\ActivateTrigger.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\Scripts\RayMove.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
@@ -169,8 +170,6 @@
     <Compile Include="Assets\Other Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\RayMove.cs" />
-    <Compile Include="Assets\Scripts\GenerateRay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />

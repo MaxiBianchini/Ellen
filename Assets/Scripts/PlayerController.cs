@@ -45,12 +45,6 @@ public class PlayerController : MonoBehaviour
          EstaEnPendiente = false;
          VelocidadPendiente = 5f;
          FuerzaPendiente = -15f;
-
-         // Gravedad = 9.81f;
-
-         //FuerzaSalto = 10f;
-
-         //Velocidad = 5;
      }
 
      // Update is called once per frame
@@ -149,86 +143,4 @@ public class PlayerController : MonoBehaviour
      {
 
      }
-
-
-
-    /// <summary>
-    /// //////////////////////////////////////////////////////////////////
-    /// </summary>
-
-    /*public float HMove;
-    public float VMove;
-
-    public CharacterController Player;
-
-    private void Start()
-    {
-        Player = GetComponent<CharacterController>();
-    }
-
-    private void Update()
-    {
-        HMove = Input.GetAxis("Horizontal");
-        VMove = Input.GetAxis("Vertical");
-    }
-
-    private void FixedUpdate()
-    {
-        Player.Move(new Vector3(HMove, 0, VMove));
-    }*/
-
-    ////////////////////////////////////////////////////
-    ///
-    /*
-    public float forwardInput;
-    public float rightInput;
-
-    private Vector3 Velocity;
-
-    // public float HMove;
-    //public float VMove;
-
-    public CameraController Camera;
-    //public CharacterController Player;
-
-    private void Start()
-    {
-        //Player = GetComponent<CharacterController>();
-        transform.Translate(Velocity);
-    }
-
-    private void Update()
-    {
-        //HMove = Input.GetAxis("Horizontal");
-        //VMove = Input.GetAxis("Vertical");
-
-       // Player.Move(new Vector3(forwardInput, 0, rightInput));
-        transform.Translate(Velocity);
-    }
-
-    public void AddMovementInput(float forward, float right)
-    {
-        forwardInput = forward;
-        rightInput = right;
-
-        Vector3 CamFwd = Camera.transform.forward;
-        Vector3 CamRht = Camera.transform.right;
-
-        Vector3 translation = forward * Camera.transform.forward;
-        translation += right * Camera.transform.right;
-
-
-        if (translation.magnitude > 0)
-        {
-            Velocity = translation;
-        }
-        else
-        {
-            Velocity = Vector3.zero;
-        }
-        
-    }
-
-    */
-    
 }

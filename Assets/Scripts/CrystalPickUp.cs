@@ -6,15 +6,9 @@ public class CrystalPickUp : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-
         if (other.tag == "Player")
         {
-
-
-            if (FindObjectOfType<WinGame>().CristalFinal()) this.gameObject.SetActive(false);
-            // Medallero.GetComponent<JuegoGanado>().NuevaMedalla();
-            //GetComponent<JuegoGanado>().NuevaMedalla(); // TIENE QUE INCREMENTAR EL CONTADOR DE MEDALLAS. NECESITA 3 PARA PODER GANAR EL JUEGO
-
+            if (FindObjectOfType<WinGame>().CristalFinal()) Destroy(this.gameObject);
         }
     }
 }

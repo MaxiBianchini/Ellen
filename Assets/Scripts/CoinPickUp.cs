@@ -6,15 +6,11 @@ public class CoinPickUp : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-
         if (other.tag == "Player")
         {
-
-            
             FindObjectOfType<WinGame>().NuevaMedalla();
-            // Medallero.GetComponent<JuegoGanado>().NuevaMedalla();
-            //GetComponent<JuegoGanado>().NuevaMedalla(); // TIENE QUE INCREMENTAR EL CONTADOR DE MEDALLAS. NECESITA 3 PARA PODER GANAR EL JUEGO
-            this.gameObject.SetActive(false);
+
+            Destroy(this.gameObject);
         }
     }
 }

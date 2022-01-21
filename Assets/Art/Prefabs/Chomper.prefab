@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51978b5e6ec90c14a8faab4261975bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PosicionesPlataorma:
+  PosicionesEnemigo:
   - {fileID: 39721641112223666}
   - {fileID: 39721641774701672}
   - {fileID: 39721641817848270}
