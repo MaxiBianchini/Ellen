@@ -24,9 +24,9 @@ public class GenerateRay : MonoBehaviour
 
     void CrearNuevoRayo()
     {
-        GameObject G = Instantiate(Rayo);
-        G.transform.position = this.transform.position;
-        G.transform.rotation = this.transform.rotation;
+        GameObject Ray = Instantiate(Rayo);
+        Ray.transform.position = this.transform.position;
+        Ray.transform.rotation = this.transform.rotation;
 
         Cronometro = 0;
     }

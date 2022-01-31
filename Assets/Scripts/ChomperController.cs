@@ -15,11 +15,11 @@ public class ChomperController : MonoBehaviour
 
     public Transform[] PosicionesEnemigo;
 
-    private int PosicionActual = 0;
-    private int PosicionSiguiente = 1;
+    private int PosicionActual;
+    private int PosicionSiguiente;
 
     private bool MoverSiguientePos;
-    public float TiempoEspera;
+    public float TiempoEspera; //Ver si cambio a privado
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +29,9 @@ public class ChomperController : MonoBehaviour
 
         Animacion = GetComponent<Animator>();
         Atacar = false;
+
+        PosicionActual = 0;
+        PosicionSiguiente = 1;
 
         MoverSiguientePos = true;
     }

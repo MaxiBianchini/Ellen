@@ -8,10 +8,10 @@ public class RayMove : MonoBehaviour
 
     private Rigidbody body;
 
-    private void Awake()
+   /*private void Awake()
     {
         
-    }
+    }*/
 
 
     // Start is called before the first frame update

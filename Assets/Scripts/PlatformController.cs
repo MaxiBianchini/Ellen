@@ -9,8 +9,8 @@ public class PlatformController : MonoBehaviour
     public Transform[] PosicionesPlataorma;
     public float Velocidad;
 
-    private int PosicionActual = 0;
-    private int PosicionSiguiente = 1;
+    private int PosicionActual;
+    private int PosicionSiguiente;
 
     public bool MoverSiguientePos;
     public float TiempoEspera;
@@ -19,6 +19,9 @@ public class PlatformController : MonoBehaviour
     void Start()
     {
         MoverSiguientePos = true;
+
+        PosicionActual = 0;
+        PosicionSiguiente = 1;
     }
 
     // Update is called once per frame

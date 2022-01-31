@@ -10,11 +10,11 @@ public class Lives : MonoBehaviour
 
     public Vector3 PosInicial;
 
-    public int Vidas = 3;
-    private bool Invencible = false;
+    private int Vidas;
+    private bool Invencible;
 
-    public float TiempoInvecible = 1f;
-    public float TiempoInmovil = 0.2f;
+    private float TiempoInvecible;
+    private float TiempoInmovil;
 
     private Animator Animacion;
 
@@ -22,6 +22,12 @@ public class Lives : MonoBehaviour
     {
         Player = GetComponent<CharacterController>();
         Animacion = GetComponent<Animator>();
+
+        Vidas = 3;
+        Invencible = false;
+
+        TiempoInvecible = 1f;
+        TiempoInmovil = 0.2f;
     }
 
     void Update()
@@ -41,8 +47,10 @@ public class Lives : MonoBehaviour
             StartCoroutine(Invulnerabilidad());
             StartCoroutine(FrenarVelocidad());
         }
-        else if (Vidas == 0) SceneManager.LoadScene("Nivel_1"); //Cargar el menu de perder.
-        
+        else if (Vidas == 0)
+        {
+            SceneManager.LoadScene("Nivel_1"); //Cargar el menu de perder.
+        }
     }
 
     IEnumerator Invulnerabilidad()

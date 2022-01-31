@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
          Player = GetComponent<CharacterController>();
          PlayerAmimatorController = GetComponent<Animator>();
 
-         //Cursor.visible = false;
+         //Cursor.visible = false; NO TE OVIDES DE ACTIVARLO
 
          EstaEnPendiente = false;
          VelocidadPendiente = 5f;
