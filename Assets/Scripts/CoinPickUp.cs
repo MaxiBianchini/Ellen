@@ -8,7 +8,7 @@ public class CoinPickUp : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            FindObjectOfType<WinGame>().NuevaMedalla();
+            FindObjectOfType<GameController>().NuevaMedalla();
 
             Destroy(this.gameObject);
         }

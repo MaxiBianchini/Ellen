@@ -29,8 +29,8 @@ public class RayMove : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player") other.GetComponent<Lives>().RestarVida(1);
+        if (other.tag != "Player") Destroy(this.gameObject);
 
-        Destroy(this.gameObject);
+
     }
 }

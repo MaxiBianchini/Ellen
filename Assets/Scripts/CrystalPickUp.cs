@@ -8,7 +8,7 @@ public class CrystalPickUp : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            if (FindObjectOfType<WinGame>().CristalFinal()) Destroy(this.gameObject);
+            if (FindObjectOfType<GameController>().CristalFinal()) Destroy(this.gameObject);
         }
     }
 }

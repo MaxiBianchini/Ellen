@@ -10,7 +10,7 @@ public class Lives : MonoBehaviour
 
     public Vector3 PosInicial;
 
-    private int Vidas;
+    public int Vidas;
     private bool Invencible;
 
     private float TiempoInvecible;
@@ -47,9 +47,10 @@ public class Lives : MonoBehaviour
             StartCoroutine(Invulnerabilidad());
             StartCoroutine(FrenarVelocidad());
         }
-        else if (Vidas == 0)
+        
+        if (Vidas == 0 || Vidas < 0)
         {
-            SceneManager.LoadScene("Nivel_1"); //Cargar el menu de perder.
+            FindObjectOfType<GameController>().Lose();
         }
     }
 

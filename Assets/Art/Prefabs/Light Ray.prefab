@@ -107,9 +107,10 @@ GameObject:
   - component: {fileID: 7739943109282326129}
   - component: {fileID: 7739943109282326130}
   - component: {fileID: 7739943109282326131}
+  - component: {fileID: 2933280521966257498}
   m_Layer: 0
   m_Name: Light Ray
-  m_TagString: Untagged
+  m_TagString: Ray
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,3 +159,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+--- !u!114 &2933280521966257498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7739943109282326140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d297ac45fa868d347b11b2aa691d0556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
