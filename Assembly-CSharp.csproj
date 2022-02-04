@@ -162,6 +162,7 @@
     <Compile Include="Assets\Scripts\RayMove.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
@@ -171,7 +172,6 @@
     <Compile Include="Assets\Other Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Other Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\GameController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
