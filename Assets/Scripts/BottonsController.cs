@@ -7,11 +7,12 @@ public class BottonsController : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene("Nivel_1");
+        SceneManager.LoadScene(1);
     }
 
     public void Salir()
     {
         Application.Quit();
+        Debug.Log("salio del juego");
     }
 }

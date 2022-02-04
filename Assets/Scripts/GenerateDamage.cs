@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class GenerateDamage : MonoBehaviour
 {
-    private int cantidad = 1;
+    private int cantidad;
+
+    private void Start()
+    {
+        cantidad = 1;
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player" && this.tag == "Chomper")  other.GetComponent<Lives>().RestarVida(cantidad);

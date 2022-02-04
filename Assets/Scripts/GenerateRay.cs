@@ -5,13 +5,14 @@ using UnityEngine;
 public class GenerateRay : MonoBehaviour
 {
     public GameObject Rayo;
-
+    float Tiempo;
     float Cronometro;
 
     // Start is called before the first frame update
     void Start()
     {
         Cronometro = 0;
+        Tiempo = Random.Range(1, 4);
     }
 
     // Update is called once per frame
@@ -19,7 +20,7 @@ public class GenerateRay : MonoBehaviour
     {
         Cronometro += Time.deltaTime;
 
-        if (Cronometro >= 3) CrearNuevoRayo();
+        if (Cronometro >= Tiempo) CrearNuevoRayo();
     }
 
     void CrearNuevoRayo()

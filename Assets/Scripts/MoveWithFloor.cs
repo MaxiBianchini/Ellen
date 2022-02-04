@@ -11,12 +11,13 @@ public class MoveWithFloor : MonoBehaviour
     string NombreSuelo;
     string UltimoNombreSuelo;
 
-    float FactDiv = 4.2f;
+    float FactDiv;
     public Vector3 OriginOffset;
 
     // Start is called before the first frame update
     void Start()
     {
+        FactDiv = 4.2f;
         Player = GetComponent<CharacterController>();
     }
 
