@@ -27,7 +27,7 @@ public class Statue : MonoBehaviour
 
         transform.LookAt(RelativePos);
         //transform.Rotate(0, transform.rotation.y, 0);
-        //transform.rotation.x
+        //transform.rotation.x = new Quaternion;
 
         //transform.rotation = Quaternion.FromToRotation()
         //transform.rotation = Vector3.Lerp(transform.position, Player.position, ValorLerp););

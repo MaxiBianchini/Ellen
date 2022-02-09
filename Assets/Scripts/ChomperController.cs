@@ -19,7 +19,7 @@ public class ChomperController : MonoBehaviour
     private int PosicionSiguiente;
 
     private bool MoverSiguientePos;
-    public float TiempoEspera; //Ver si cambio a privado
+    public float TiempoEspera; //Ver si cambio a privado // CAMBIAR POR UN RANDOM
 
     // Start is called before the first frame update
     void Start()
