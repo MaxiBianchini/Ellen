@@ -7,7 +7,14 @@ public class BottonsController : MonoBehaviour
 {
     public void Jugar()
     {
+        
         SceneManager.LoadScene(1);
+   
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene(0);
     }
 
     public void Salir()
