@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour
         WinMenu = transform.GetChild(2).gameObject;
         WinMenu.SetActive(WinMenuActive);
 
-
+        Time.timeScale = (false) ? 0 : 1f;
 
 
         // canvas = GetComponent<Canvas>();
@@ -49,6 +49,8 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (WinMenuActive || LoseMenuActive) return;
+
         if (Input.GetKeyDown("escape"))
         {
             StopMenuActive = !StopMenuActive;

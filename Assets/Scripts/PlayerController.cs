@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
      public float Gravedad;
      private float VelocidadCaida;
 
+     private bool PuedoSaltar;
+
      //Variables movimiento relativo a camara
      public Camera Cam;
      private Vector3 CamDelante;
@@ -45,6 +47,8 @@ public class PlayerController : MonoBehaviour
          EstaEnPendiente = false;
          VelocidadPendiente = 5f;
          FuerzaPendiente = -15f;
+
+        PuedoSaltar = false;
      }
 
      // Update is called once per frame
@@ -74,6 +78,12 @@ public class PlayerController : MonoBehaviour
          PlayerSkills(); // Llamado a función PlayerSkills()
 
          Player.Move(DireccionPlayer * Time.deltaTime);
+
+        if (Player.isGrounded)
+        {
+            PuedoSaltar = true;
+        }
+        
      }
 
      //Funcion para obetener la direccion de la camara
@@ -102,7 +112,12 @@ public class PlayerController : MonoBehaviour
              VelocidadCaida -= Gravedad * Time.deltaTime;
              DireccionPlayer.y = VelocidadCaida;
 
-             PlayerAmimatorController.SetFloat("PlayerVelocidadVertical", Player.velocity.y);
+            if (VelocidadCaida < 2)
+            {
+                PuedoSaltar = false;
+            }
+
+            PlayerAmimatorController.SetFloat("PlayerVelocidadVertical", Player.velocity.y);
          }
 
          PlayerAmimatorController.SetBool("TocandoSuelo", Player.isGrounded);
@@ -111,10 +126,12 @@ public class PlayerController : MonoBehaviour
      //Funcion para las habilidades del player
      private void PlayerSkills()
      {
-         if (Player.isGrounded && Input.GetButtonDown("Jump"))
+         if (/*Player.isGrounded &&*/PuedoSaltar && Input.GetButtonDown("Jump"))
          {
              VelocidadCaida = FuerzaSalto;
              DireccionPlayer.y = VelocidadCaida;
+
+             PuedoSaltar = false;
 
              PlayerAmimatorController.SetTrigger("PlayerSalto");
          }
