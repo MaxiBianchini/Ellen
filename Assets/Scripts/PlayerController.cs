@@ -112,7 +112,7 @@ public class PlayerController : MonoBehaviour
              VelocidadCaida -= Gravedad * Time.deltaTime;
              DireccionPlayer.y = VelocidadCaida;
 
-            if (VelocidadCaida < 2)
+            if (VelocidadCaida < -5)
             {
                 PuedoSaltar = false;
             }
