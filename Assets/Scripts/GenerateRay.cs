@@ -5,6 +5,7 @@ using UnityEngine;
 public class GenerateRay : MonoBehaviour
 {
     public GameObject Rayo;
+
     float Tiempo;
     float Cronometro;
 

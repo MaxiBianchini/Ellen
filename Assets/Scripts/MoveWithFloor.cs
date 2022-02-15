@@ -6,17 +6,19 @@ public class MoveWithFloor : MonoBehaviour
 {
     CharacterController Player;
 
-    Vector3 PosicionSuelo;
-    Vector3 UltimaPosicionSuelo;
-    string NombreSuelo;
-    string UltimoNombreSuelo;
+    private Vector3 PosicionSuelo;
+    private Vector3 UltimaPosicionSuelo;
+    private string NombreSuelo;
+    private string UltimoNombreSuelo;
 
-    float FactDiv;
-    public Vector3 OriginOffset;
+    private float FactDiv;
+    private Vector3 OriginOffset;
 
     // Start is called before the first frame update
     void Start()
     {
+        OriginOffset = new Vector3(0, 1, 0);
+
         FactDiv = 4.2f;
         Player = GetComponent<CharacterController>();
     }

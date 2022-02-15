@@ -6435,7 +6435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69cf6588e8094ce439f04732338f2d1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OriginOffset: {x: 0, y: 1, z: 0}
 --- !u!1001 &959238716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6626,9 +6625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1efe8c5a2e0796c45ab1c43bf901d2b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sensibilidad: 1.5
-  Distancia: {x: 0, y: 1.5, z: -6}
-  ValorLerp: 1
 --- !u!4 &964094946 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
@@ -6655,7 +6651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.27
+      value: 8.767
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6717,7 +6713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.12
+      value: 9.03
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8108,7 +8104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.04
+      value: 8.89
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8939,7 +8935,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bb1524158f23e5419afff1e096390af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Medallas: 7
 --- !u!4 &1222997059
 Transform:
   m_ObjectHideFlags: 0
@@ -12528,7 +12523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -42.581688
+      value: -41.71
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13632,7 +13627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.93
+      value: 6.79
       objectReference: {fileID: 0}
     - target: {fileID: 490182573922555821, guid: 51179a05c5b1f504d9d4933d2e5bdbf9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16002,15 +15997,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2196649878686387540, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.7
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 2196649878686387540, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.52
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2196649878686387540, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -47.24
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 2196649878686387540, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16090,7 +16085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5369631990037539226, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: PosInicial.y
-      value: 1.522
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5369631990037539226, guid: 298c97a26f050bc47b77417d76bdec82, type: 3}
       propertyPath: PosInicial.z

@@ -8,9 +8,9 @@ public class Lives : MonoBehaviour
 {
     private CharacterController Player;
 
-    public Vector3 PosInicial;
+    private Vector3 PosInicial;
 
-    public int Vidas;
+    private int Vidas;
     private bool Invencible;
 
     private float TiempoInvecible;
@@ -22,6 +22,8 @@ public class Lives : MonoBehaviour
     {
         Player = GetComponent<CharacterController>();
         Animacion = GetComponent<Animator>();
+
+        PosInicial = new Vector3(-45, 1, -45);
 
         Vidas = 3;
         Invencible = false;
@@ -48,10 +50,7 @@ public class Lives : MonoBehaviour
             StartCoroutine(FrenarVelocidad());
         }
         
-        if (Vidas == 0 || Vidas < 0)
-        {
-            FindObjectOfType<GameController>().Lose();
-        }
+        if (Vidas == 0 || Vidas < 0) FindObjectOfType<GameController>().Lose();
     }
 
     IEnumerator Invulnerabilidad()

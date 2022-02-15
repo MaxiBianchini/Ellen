@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlatformController : MonoBehaviour
-{
-
+{ 
     public Rigidbody Plataforma;
     public Transform[] PosicionesPlataorma;
-    public float Velocidad;
+    private float Velocidad;
 
     private int PosicionActual;
     private int PosicionSiguiente;
 
-    public bool MoverSiguientePos;
-    public float TiempoEspera;
+    private bool MoverSiguientePos;
+    private float TiempoEspera;
 
     // Start is called before the first frame update
     void Start()
     {
         MoverSiguientePos = true;
+        TiempoEspera = 2;
+        Velocidad = 4;
 
         PosicionActual = 0;
         PosicionSiguiente = 1;
@@ -32,7 +33,6 @@ public class PlatformController : MonoBehaviour
 
     private void MoverPlataforma()
     {
-
         if (MoverSiguientePos)
         {
             StopCoroutine(EsperarParaMover(0f));
@@ -46,10 +46,7 @@ public class PlatformController : MonoBehaviour
             PosicionActual = PosicionSiguiente;
             PosicionSiguiente++;
 
-            if (PosicionSiguiente > PosicionesPlataorma.Length - 1)
-            {
-                PosicionSiguiente = 0;
-            }
+            if (PosicionSiguiente > PosicionesPlataorma.Length - 1) PosicionSiguiente = 0; 
         }
     }
 

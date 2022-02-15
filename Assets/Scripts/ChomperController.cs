@@ -19,7 +19,7 @@ public class ChomperController : MonoBehaviour
     private int PosicionSiguiente;
 
     private bool MoverSiguientePos;
-    public float TiempoEspera; //Ver si cambio a privado // CAMBIAR POR UN RANDOM
+    private float TiempoEspera;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +32,8 @@ public class ChomperController : MonoBehaviour
 
         PosicionActual = 0;
         PosicionSiguiente = 1;
+
+        TiempoEspera = Random.Range(1, 5);
 
         MoverSiguientePos = true;
     }
@@ -80,10 +82,7 @@ public class ChomperController : MonoBehaviour
                 PosicionActual = PosicionSiguiente;
                 PosicionSiguiente++;
 
-                if (PosicionSiguiente > PosicionesEnemigo.Length - 1)
-                {
-                    PosicionSiguiente = 0;
-                }
+                if (PosicionSiguiente > PosicionesEnemigo.Length - 1) PosicionSiguiente = 0;
             }
         }
         else

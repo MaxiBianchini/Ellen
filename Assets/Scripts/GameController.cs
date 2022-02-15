@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public int Medallas; //CAMBIAR A PRIVATE UNA VEZ TERMINADO
+    private int Medallas;
 
     private GameObject PuertaFinal;
-
-    // Start is called before the first frame update
-
-    //Canvas canvas;
 
     bool LoseMenuActive;
     bool StopMenuActive;
@@ -20,13 +16,11 @@ public class GameController : MonoBehaviour
     private GameObject StopMenu;
     private GameObject WinMenu;
 
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
+        Medallas = 7;
+
         LoseMenuActive = false;
         LoseMenu = transform.GetChild(0).gameObject;
         LoseMenu.SetActive(LoseMenuActive);
@@ -40,10 +34,6 @@ public class GameController : MonoBehaviour
         WinMenu.SetActive(WinMenuActive);
 
         Time.timeScale = (false) ? 0 : 1f;
-
-
-        // canvas = GetComponent<Canvas>();
-        // canvas.enabled = false;
     }
 
     // Update is called once per frame
@@ -54,7 +44,6 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown("escape"))
         {
             StopMenuActive = !StopMenuActive;
-            //canvas.enabled = active;
             StopMenu.SetActive(StopMenuActive);
 
             Time.timeScale = (StopMenuActive) ? 0 : 1f;
@@ -65,7 +54,6 @@ public class GameController : MonoBehaviour
     {
         LoseMenuActive = !LoseMenuActive;
         LoseMenu.SetActive(LoseMenuActive);
-        //canvas.enabled = active;
 
         Time.timeScale = (LoseMenuActive) ? 0 : 1f;
     }
@@ -76,7 +64,6 @@ public class GameController : MonoBehaviour
 
         if (Medallas == 0)
         {
-
             PuertaFinal = GameObject.Find("Door");
             Destroy(PuertaFinal);
         }
@@ -86,11 +73,8 @@ public class GameController : MonoBehaviour
     {
         if (Medallas != 0) return false;
 
-       // canvas.enabled = true;
-
         WinMenuActive = !WinMenuActive;
         WinMenu.SetActive(WinMenuActive);
-        //canvas.enabled = active;
 
         Time.timeScale = (WinMenuActive) ? 0 : 1f;
 

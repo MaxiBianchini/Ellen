@@ -11,12 +11,12 @@ public class PlayerController : MonoBehaviour
      private float MoveH;
      private float MoveV;
 
-     public float FuerzaSalto;
+     private float FuerzaSalto;
 
      public float Velocidad;
      private Vector3 DireccionPlayer;
 
-     public float Gravedad;
+     private float Gravedad;
      private float VelocidadCaida;
 
      private bool PuedoSaltar;
@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
      public Camera Cam;
      private Vector3 CamDelante;
      private Vector3 CamDerecha;
-
 
      //Variables deslizamiento en pendiente
      private bool EstaEnPendiente;
@@ -39,14 +38,18 @@ public class PlayerController : MonoBehaviour
      //Carga el componente CharacterController en la variable Player y el componente Animator al iniciar el script
      void Start()
      {
-         Player = GetComponent<CharacterController>();
-         PlayerAmimatorController = GetComponent<Animator>();
+        Player = GetComponent<CharacterController>();
+        PlayerAmimatorController = GetComponent<Animator>();
 
-         //Cursor.visible = false; NO TE OVIDES DE ACTIVARLO
+        //Cursor.visible = false; NO TE OVIDES DE ACTIVARLO
 
-         EstaEnPendiente = false;
-         VelocidadPendiente = 5f;
-         FuerzaPendiente = -15f;
+        FuerzaSalto = 10;
+        Velocidad = 10;
+        Gravedad = 40;
+
+        EstaEnPendiente = false;
+        VelocidadPendiente = 5f;
+        FuerzaPendiente = -15f;
 
         PuedoSaltar = false;
      }
@@ -79,11 +82,7 @@ public class PlayerController : MonoBehaviour
 
          Player.Move(DireccionPlayer * Time.deltaTime);
 
-        if (Player.isGrounded)
-        {
-            PuedoSaltar = true;
-        }
-        
+        if (Player.isGrounded) PuedoSaltar = true; 
      }
 
      //Funcion para obetener la direccion de la camara
@@ -112,10 +111,7 @@ public class PlayerController : MonoBehaviour
              VelocidadCaida -= Gravedad * Time.deltaTime;
              DireccionPlayer.y = VelocidadCaida;
 
-            if (VelocidadCaida < -5)
-            {
-                PuedoSaltar = false;
-            }
+            if (VelocidadCaida < -5) PuedoSaltar = false;
 
             PlayerAmimatorController.SetFloat("PlayerVelocidadVertical", Player.velocity.y);
          }
@@ -126,7 +122,7 @@ public class PlayerController : MonoBehaviour
      //Funcion para las habilidades del player
      private void PlayerSkills()
      {
-         if (/*Player.isGrounded &&*/PuedoSaltar && Input.GetButtonDown("Jump"))
+         if (PuedoSaltar && Input.GetButtonDown("Jump"))
          {
              VelocidadCaida = FuerzaSalto;
              DireccionPlayer.y = VelocidadCaida;
