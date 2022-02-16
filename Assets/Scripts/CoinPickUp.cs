@@ -12,10 +12,12 @@ public class CoinPickUp : MonoBehaviour
     }
     private void Update()
     {
+        //Rotacion de las monedas (detalle estetico)
         y += Time.deltaTime * 30;
         transform.rotation = Quaternion.Euler(0, y, 0);
     }
 
+    // Colision ccon una moneda, se destrulle y reduce contador de monedas
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")

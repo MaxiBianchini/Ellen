@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CrystalPickUp : MonoBehaviour
 {
+    // Colision con el cristal, se destrulle y el juego termina
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")

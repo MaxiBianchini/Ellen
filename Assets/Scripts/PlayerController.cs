@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
 
         //Cursor.visible = false; NO TE OVIDES DE ACTIVARLO
 
+        //Inicializacion de variables
         FuerzaSalto = 10;
         Velocidad = 10;
         Gravedad = 40;

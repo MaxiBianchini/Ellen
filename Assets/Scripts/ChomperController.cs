@@ -8,26 +8,29 @@ public class ChomperController : MonoBehaviour
     private GameObject Personaje;
     private NavMeshAgent Agente;
 
+    //Variables de animacion
     private Animator Animacion;
     private bool Atacar;
 
     private float CronometroAnimacion;
 
+    //Variables de Posicionamineto
     public Transform[] PosicionesEnemigo;
-
-    private int PosicionActual;
     private int PosicionSiguiente;
-
+    private int PosicionActual;
+    
     private bool MoverSiguientePos;
     private float TiempoEspera;
 
     // Start is called before the first frame update
     void Start()
     {
-        Agente = GetComponent<NavMeshAgent>();
-        Personaje = GameObject.Find("Ellen");
+        Agente = GetComponent<NavMeshAgent>(); //Obtiene el agente de navegacion para saber por donde puede moverse
+        Personaje = GameObject.Find("Ellen"); //Obtiene el Gameobjject del personaje para luego poder seguirlo segun la distancia al mismo
 
-        Animacion = GetComponent<Animator>();
+        Animacion = GetComponent<Animator>(); //Obtiene su aminacion
+
+        //Inicializacion de variables
         Atacar = false;
 
         PosicionActual = 0;
@@ -41,7 +44,7 @@ public class ChomperController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Movimineto();
+        Movimineto(); //Llamado a la funcion Movimineto()
     }
 
     private void Movimineto()

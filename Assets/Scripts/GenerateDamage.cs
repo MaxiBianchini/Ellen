@@ -10,6 +10,7 @@ public class GenerateDamage : MonoBehaviour
         cantidad = 1;
     }
 
+    //Colisiones varias entre el Jugador y los Enemigos para restar vida (Chomper, Ray y Water)
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player" && this.tag == "Chomper")  other.GetComponent<Lives>().RestarVida(cantidad);
