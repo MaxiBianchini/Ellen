@@ -53,6 +53,11 @@ public class Lives : MonoBehaviour
         if (Vidas == 0 || Vidas < 0) FindObjectOfType<GameController>().Lose();
     }
 
+    public float VerVidas()
+    {
+        return Vidas;
+    }
+
     IEnumerator Invulnerabilidad()
     {
         Invencible = true;

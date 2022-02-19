@@ -10,7 +10,7 @@ public class RayMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 20;
+        speed = 20;  
 
         body = GetComponent<Rigidbody>();
         body.velocity = transform.forward * speed;
