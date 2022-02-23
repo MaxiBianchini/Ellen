@@ -10,6 +10,8 @@ public class Lives : MonoBehaviour
 
     private Vector3 PosInicial;
 
+    public GameObject[] Corazones;
+
     private int Vidas;
     private bool Invencible;
 
@@ -42,6 +44,7 @@ public class Lives : MonoBehaviour
         if (!Invencible && Vidas > 0)
         {
             Vidas -= cantidad;
+            Destroy(Corazones[Vidas].gameObject);
 
             Animacion.Play("Daño");
 

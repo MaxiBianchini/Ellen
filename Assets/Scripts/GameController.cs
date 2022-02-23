@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
 
     private GameObject PuertaFinal;
 
+    public GameObject[] Monedas;
+
     //GameObjeccts y Variables de los distintos menús
     bool LoseMenuActive;
     bool StopMenuActive;
@@ -63,6 +65,7 @@ public class GameController : MonoBehaviour
     public void NuevaMedalla() //Funcion que maneja el contador de monedas y  abre la puerta del templo (monedas = 0)
     {
         Medallas -= 1;
+        Destroy(Monedas[Medallas].gameObject);
 
         if (Medallas == 0)
         {

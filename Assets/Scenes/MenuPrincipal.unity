@@ -2777,7 +2777,7 @@ MonoBehaviour:
   m_text: "\rMovement: with the letters W,A,D,S we give the player direction.\r\nJump
     with the space bar and the camera is handled with the mouse.\r\nObjective: Find
     all the coins scattered on the map to open the door of the temple and obtain
-    the Gem of Destiny"
+    the Gem of Destiny."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
