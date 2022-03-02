@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class BottonsController : MonoBehaviour
 {
-
     //Botones que aparecen en los menús
     public void Jugar()
     {

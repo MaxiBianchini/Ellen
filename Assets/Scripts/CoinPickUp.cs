@@ -17,7 +17,7 @@ public class CoinPickUp : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, y, 0);
     }
 
-    // Colision ccon una moneda, se destrulle y reduce contador de monedas
+    // Colision con una moneda, se destruye y reduce contador de monedas
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")

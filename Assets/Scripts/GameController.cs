@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
             StopMenuActive = !StopMenuActive;
             StopMenu.SetActive(StopMenuActive);
 
-            Time.timeScale = (StopMenuActive) ? 0 : 1f; //Detiene los movimeintos del juego
+            Time.timeScale = (StopMenuActive) ? 0 : 1f; //Detiene los movimientos del juego
         }
     }
 
@@ -59,7 +59,7 @@ public class GameController : MonoBehaviour
         LoseMenuActive = !LoseMenuActive;
         LoseMenu.SetActive(LoseMenuActive);
 
-        Time.timeScale = (LoseMenuActive) ? 0 : 1f; //Detiene los movimeintos del juego
+        Time.timeScale = (LoseMenuActive) ? 0 : 1f; //Detiene los movimientos del juego
     }
 
     public void NuevaMedalla() //Funcion que maneja el contador de monedas y  abre la puerta del templo (monedas = 0)
@@ -81,7 +81,7 @@ public class GameController : MonoBehaviour
         WinMenuActive = !WinMenuActive;
         WinMenu.SetActive(WinMenuActive);
 
-        Time.timeScale = (WinMenuActive) ? 0 : 1f; //Detiene los movimeintos del juego
+        Time.timeScale = (WinMenuActive) ? 0 : 1f; //Detiene los movimientos del juego
 
         return true;
     }

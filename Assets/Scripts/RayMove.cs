@@ -12,10 +12,12 @@ public class RayMove : MonoBehaviour
     {
         speed = 20;  
 
+        // Obtiene el cuerpo del objeto  que lo crea para tener su direccion y asi ser disparado
         body = GetComponent<Rigidbody>();
         body.velocity = transform.forward * speed;
     }
 
+    // Al colisionar con el personaje, el Ray se destruye
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag != "Player") Destroy(this.gameObject);
