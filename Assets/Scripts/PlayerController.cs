@@ -69,10 +69,10 @@ public class PlayerController : MonoBehaviour
 
          DireccionCamara(); //Llamado a función DireccionCamara()
 
-         DireccionPlayer = PlayerInput.x * CamDerecha + PlayerInput.z * CamDelante; //Almacena el vector de movimiento corregido con respecto a la camara
+         DireccionPlayer = PlayerInput.x * CamDerecha + PlayerInput.z * CamDelante; //Almacena el vector direccion corregido con respecto a la camara
 
          DireccionPlayer = DireccionPlayer * Velocidad; //Y multiplica su valor por la velocidad del jugador
-
+         
          Player.transform.LookAt(Player.transform.position + DireccionPlayer); //Hace que el personaje mire en la direccion en la que se está moviendo
 
          CrearGravedad(); //Llamado a función CrearGravedad()
@@ -81,18 +81,18 @@ public class PlayerController : MonoBehaviour
 
          PlayerSkills(); // Llamado a función PlayerSkills()
 
-         Player.Move(DireccionPlayer * Time.deltaTime);
+         Player.Move(DireccionPlayer * Time.deltaTime); //Hace mover al personaje
 
         if (Player.isGrounded) PuedoSaltar = true; 
      }
 
-     //Funcion para obetener la direccion de la camara
+     //Funcion para obetener la direccion de la camara (hacia donde esta viendo)
      private void DireccionCamara()
      {
-         CamDelante = Cam.transform.forward;
-         CamDerecha = Cam.transform.right;
+         CamDelante = Cam.transform.forward; //Guarda la direccion de la camara hacia delante
+         CamDerecha = Cam.transform.right; //Guarda la direccion de la camara hacia la derecha
 
-         CamDelante.y = 0;
+        CamDelante.y = 0;
          CamDerecha.y = 0;
 
          CamDelante = CamDelante.normalized;
@@ -104,12 +104,12 @@ public class PlayerController : MonoBehaviour
      {
          if (Player.isGrounded)
          {
-             VelocidadCaida = -Gravedad * Time.deltaTime;
+             VelocidadCaida = -Gravedad * Time.deltaTime; //Le aplica la gravedad para que se mantenga en contacto con el suelo
              DireccionPlayer.y = VelocidadCaida;
          }
          else
          {
-             VelocidadCaida -= Gravedad * Time.deltaTime;
+             VelocidadCaida -= Gravedad * Time.deltaTime; //Crea una aceleracion de caida
              DireccionPlayer.y = VelocidadCaida;
 
             if (VelocidadCaida < -5) PuedoSaltar = false;
@@ -137,18 +137,19 @@ public class PlayerController : MonoBehaviour
      //Funcion para las pendientes
      private void DeslizarCaida()
      {
-         EstaEnPendiente = Vector3.Angle(Vector3.up, HitNormal) >= Player.slopeLimit;
+         EstaEnPendiente = Vector3.Angle(Vector3.up, HitNormal) >= Player.slopeLimit; //Calcula el angulo entre el vector UP y el HitNormal del objeto que golpeamos y lo compara con el slop del Character Controller
 
-         if (EstaEnPendiente == true)
+         if (EstaEnPendiente)
          {
-             DireccionPlayer.x += ((1f - HitNormal.y) * HitNormal.x) * VelocidadPendiente;
-             DireccionPlayer.z += ((1f - HitNormal.y) * HitNormal.z) * VelocidadPendiente;
+            //Se le aplica la "fuerza" para hacer que caiga de la pendiente
+             DireccionPlayer.x += ((1f - HitNormal.y) * HitNormal.x) * VelocidadPendiente; //Segun la inclinacion de la pendiente se aplica mas o menos velocidad
+             DireccionPlayer.z += ((1f - HitNormal.y) * HitNormal.z) * VelocidadPendiente; //Segun la inclinacion de la pendiente se aplica mas o menos velocidad
 
-             DireccionPlayer.y += FuerzaPendiente;
+            DireccionPlayer.y += FuerzaPendiente; //Se usa para evitar que vaya dando saltos
          }
      }
 
-     private void OnControllerColliderHit(ControllerColliderHit hit)
+     private void OnControllerColliderHit(ControllerColliderHit hit) //Detecta cuando nuestro controller colisiona con otro objeto y lo almacena
      {
          HitNormal = hit.normal;
      }
