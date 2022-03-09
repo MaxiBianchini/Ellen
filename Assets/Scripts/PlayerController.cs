@@ -65,9 +65,9 @@ public class PlayerController : MonoBehaviour
          PlayerInput = new Vector3(MoveH, 0, MoveV); //Almacena los valores en un Vector3
          PlayerInput = Vector3.ClampMagnitude(PlayerInput, 1); //limita su magnitud a 1 para evitar una aceleracion en diagonales
 
-         PlayerAmimatorController.SetFloat("PlayerVelocidadCaminar", PlayerInput.magnitude * Velocidad);
+         PlayerAmimatorController.SetFloat("PlayerVelocidadCaminar", PlayerInput.magnitude * Velocidad); //Asigna un valor a la variable del Animator
 
-         DireccionCamara(); //Llamado a función DireccionCamara()
+        DireccionCamara(); //Llamado a función DireccionCamara()
 
          DireccionPlayer = PlayerInput.x * CamDerecha + PlayerInput.z * CamDelante; //Almacena el vector direccion corregido con respecto a la camara
 
@@ -113,11 +113,11 @@ public class PlayerController : MonoBehaviour
              DireccionPlayer.y = VelocidadCaida;
 
             if (VelocidadCaida < -5) PuedoSaltar = false;
+            
+            PlayerAmimatorController.SetFloat("PlayerVelocidadVertical", Player.velocity.y); //Asigna un valor a la variable del Animator
+        }
 
-            PlayerAmimatorController.SetFloat("PlayerVelocidadVertical", Player.velocity.y);
-         }
-
-         PlayerAmimatorController.SetBool("TocandoSuelo", Player.isGrounded);
+         PlayerAmimatorController.SetBool("TocandoSuelo", Player.isGrounded); //Asigna un valor a la variable del Animator
      }
 
      //Funcion para las habilidades del player
@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour
 
              PuedoSaltar = false;
 
-             PlayerAmimatorController.SetTrigger("PlayerSalto");
+             PlayerAmimatorController.SetTrigger("PlayerSalto"); //Activa el trigger una vez que salto
          }
      }
 
@@ -149,12 +149,12 @@ public class PlayerController : MonoBehaviour
          }
      }
 
-     private void OnControllerColliderHit(ControllerColliderHit hit) //Detecta cuando nuestro controller colisiona con otro objeto y lo almacena
+     private void OnControllerColliderHit(ControllerColliderHit hit) //Detecta cuando nuestro controller colisiona con otro objeto y lo almacena en hit
      {
          HitNormal = hit.normal;
      }
 
-     private void OnAnimatorMove()
+     private void OnAnimatorMove() //Se cre para que el Apply Root Motion no interfiera con el movimiento calculado que tenemos y las animaciones
      {
 
      }

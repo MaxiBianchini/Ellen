@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using UnityEngine.SceneManagement;
 
 public class Lives : MonoBehaviour
@@ -22,6 +21,8 @@ public class Lives : MonoBehaviour
 
     private void Start()
     {
+
+        //Inicializacion de variables
         Player = GetComponent<CharacterController>();
         Animacion = GetComponent<Animator>();
 
