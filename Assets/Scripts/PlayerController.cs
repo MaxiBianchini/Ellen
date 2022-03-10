@@ -41,8 +41,6 @@ public class PlayerController : MonoBehaviour
         Player = GetComponent<CharacterController>();
         PlayerAmimatorController = GetComponent<Animator>();
 
-        //Cursor.visible = false; NO TE OVIDES DE ACTIVARLO
-
         //Inicializacion de variables
         FuerzaSalto = 10;
         Velocidad = 10;

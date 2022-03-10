@@ -38,6 +38,8 @@ public class GameController : MonoBehaviour
         WinMenu.SetActive(WinMenuActive);
 
         Time.timeScale = (false) ? 0 : 1f;
+
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
