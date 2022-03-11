@@ -5,9 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Lives : MonoBehaviour
 {
+    //Variables varias
     private CharacterController Player;
-
-    private Vector3 PosInicial;
 
     public GameObject[] Corazones;
 
@@ -21,12 +20,9 @@ public class Lives : MonoBehaviour
 
     private void Start()
     {
-
         //Inicializacion de variables
         Player = GetComponent<CharacterController>();
         Animacion = GetComponent<Animator>();
-
-        PosInicial = new Vector3(-45, 1, -45);
 
         Vidas = 3;
         Invencible = false;
@@ -40,21 +36,21 @@ public class Lives : MonoBehaviour
 
     }
 
-    public void RestarVida(int cantidad)
+    public void RestarVida(int cantidad) //Fncion de restar vida cada vez que hay collision con algun enemigo
     {
-        if (!Invencible && Vidas > 0)
+        if (!Invencible && Vidas > 0) //Si no es invencible pueden hacerle daño
         {
             Vidas -= cantidad;
-            Destroy(Corazones[Vidas].gameObject);
+            Destroy(Corazones[Vidas].gameObject); //Elimina uno de los corazones del UI
 
-            Animacion.Play("Daño");
+            Animacion.Play("Daño"); //Activa la animacion de daño
 
             Invencible = true;
-            StartCoroutine(Invulnerabilidad());
-            StartCoroutine(FrenarVelocidad());
+            StartCoroutine(Invulnerabilidad()); //Llama a la cortina de invulnerabilidad
+            StartCoroutine(FrenarVelocidad()); //Llama a la cortina de frenarvelocidad
         }
         
-        if (Vidas == 0 || Vidas < 0) FindObjectOfType<GameController>().Lose();
+        if (Vidas == 0 || Vidas < 0) FindObjectOfType<GameController>().Lose(); //Si se quedó sin vidas pierde el juego y sale el menu Lose
     }
 
     public float VerVidas()
@@ -62,6 +58,7 @@ public class Lives : MonoBehaviour
         return Vidas;
     }
 
+    //Lo hace invencible durante un segundo para darle tiempo de escapar
     IEnumerator Invulnerabilidad()
     {
         Invencible = true;
@@ -69,6 +66,7 @@ public class Lives : MonoBehaviour
         Invencible = false;
     }
 
+    //Frena al jugador para que el daño sea mas notorio
     IEnumerator FrenarVelocidad()
     {
         var VelocidadActual = GetComponent<PlayerController>().Velocidad;

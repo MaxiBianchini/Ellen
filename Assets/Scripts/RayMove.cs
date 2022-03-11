@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RayMove : MonoBehaviour
 {
+    //Variables varias
     private float speed;
     private Rigidbody body;
 

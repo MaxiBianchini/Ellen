@@ -26,7 +26,7 @@ public class CameraController : MonoBehaviour
     {
         //La camara obtiene una posicion y se ajusta al movimiento del  mouse
         transform.position = Vector3.Lerp(transform.position, Player.position + Distancia, ValorLerp);
-        Distancia = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * Sensibilidad, Vector3.up) * Distancia;
+        Distancia = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * Sensibilidad, Vector3.up) * Distancia; //Crea una rotacion en la camara
 
         transform.LookAt(Player); //Acomoda el angulo automaticamente para mirar al jugador
     }

@@ -22,9 +22,9 @@ public class CoinPickUp : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            FindObjectOfType<GameController>().NuevaMedalla();
+            FindObjectOfType<GameController>().NuevaMedalla(); //Busca la funcion NuevaMedalla()
 
-            Destroy(this.gameObject);
+            Destroy(this.gameObject); //Destruye la moneda
         }
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GenerateRay : MonoBehaviour
 {
+    //Variables varias
     public GameObject Rayo;
 
     private float Tiempo;

@@ -152,7 +152,7 @@ public class PlayerController : MonoBehaviour
          HitNormal = hit.normal;
      }
 
-     private void OnAnimatorMove() //Se cre para que el Apply Root Motion no interfiera con el movimiento calculado que tenemos y las animaciones
+     private void OnAnimatorMove() //Se crea para que el Apply Root Motion no interfiera con el movimiento calculado que tenemos y las animaciones
      {
 
      }

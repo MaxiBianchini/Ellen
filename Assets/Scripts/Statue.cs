@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Statue : MonoBehaviour
 {
-    //Variables varias
+    //Variables varias 
     private Vector3 RelativePos;
     private Transform Player;
 

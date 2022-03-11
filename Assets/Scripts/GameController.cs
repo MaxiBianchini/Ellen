@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+    //Variables varias
     private int Medallas;
 
     private GameObject PuertaFinal;
@@ -39,7 +40,7 @@ public class GameController : MonoBehaviour
 
         Time.timeScale = (false) ? 0 : 1f;
 
-        Cursor.visible = false;
+        Cursor.visible = false; //Ocultamos el cursor
     }
 
     // Update is called once per frame
@@ -62,6 +63,8 @@ public class GameController : MonoBehaviour
         LoseMenu.SetActive(LoseMenuActive);
 
         Time.timeScale = (LoseMenuActive) ? 0 : 1f; //Detiene los movimientos del juego
+
+        Cursor.visible = true;
     }
 
     public void NuevaMedalla() //Funcion que maneja el contador de monedas y  abre la puerta del templo (monedas = 0)
@@ -71,7 +74,7 @@ public class GameController : MonoBehaviour
 
         if (Medallas == 0)
         {
-            PuertaFinal = GameObject.Find("Door");
+            PuertaFinal = GameObject.Find("Door"); //Busca la puerta del templo para aliminarla
             Destroy(PuertaFinal);
         }
     }
@@ -84,6 +87,8 @@ public class GameController : MonoBehaviour
         WinMenu.SetActive(WinMenuActive);
 
         Time.timeScale = (WinMenuActive) ? 0 : 1f; //Detiene los movimientos del juego
+
+        Cursor.visible = true;
 
         return true;
     }

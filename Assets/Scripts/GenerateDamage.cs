@@ -5,6 +5,7 @@ using UnityEngine;
 public class GenerateDamage : MonoBehaviour
 {
     private int cantidad;
+
     private void Start()
     {
         cantidad = 1;
