@@ -33,7 +33,9 @@ public class PlayerController : MonoBehaviour
      private Vector3 HitNormal;
 
     //Variables de sonido
+    private AudioSource SonidoJugador;
     public AudioClip SonidoSalto;
+     
 
      //Variables Animaciones
      private Animator PlayerAmimatorController;
@@ -52,6 +54,8 @@ public class PlayerController : MonoBehaviour
         EstaEnPendiente = false;
         VelocidadPendiente = 5f;
         FuerzaPendiente = -15f;
+
+        SonidoJugador = GetComponent<AudioSource>();
 
         PuedoSaltar = false;
      }
@@ -132,6 +136,8 @@ public class PlayerController : MonoBehaviour
              PuedoSaltar = false;
 
              PlayerAmimatorController.SetTrigger("PlayerSalto"); //Activa el trigger una vez que salto
+
+             SonidoJugador.PlayOneShot(SonidoSalto, 0.7f);
          }
      }
 

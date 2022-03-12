@@ -8,7 +8,7 @@ public class CoinPickUp : MonoBehaviour
 
     private void Start()
     {
-        y = 0;
+        y = 0;   
     }
     private void Update()
     {
