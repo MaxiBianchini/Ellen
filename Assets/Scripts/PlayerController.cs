@@ -32,6 +32,9 @@ public class PlayerController : MonoBehaviour
      private float FuerzaPendiente;
      private Vector3 HitNormal;
 
+    //Variables de sonido
+    public AudioClip SonidoSalto;
+
      //Variables Animaciones
      private Animator PlayerAmimatorController;
 
